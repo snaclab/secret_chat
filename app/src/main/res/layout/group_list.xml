@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >
+
+  <TextView
+      android:id="@+id/text_view_id_header"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:text=""
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:layout_marginBottom="5dp"
+
+      />
+
+  <LinearLayout
+      android:id="@+id/linear_layout_group_request"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/text_view_id_header"
+      android:orientation="horizontal">
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_group_request"
+        android:text="@string/group_request_button"
+        />
+  </LinearLayout>
+
+
+  <TextView
+    android:id="@+id/new_group_header"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="@string/group_list_header"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="5dp"
+    android:layout_below="@id/linear_layout_group_request"
+      />
+
+  <LinearLayout 
+    android:layout_below="@id/new_group_header"
+    android:id="@+id/linear_layout_create_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <EditText 
+      android:layout_width="0dp"
+      android:layout_weight="2"
+      android:layout_height="wrap_content"
+      android:id="@+id/edit_text_create_group"/>
+    <Button 
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:id="@+id/button_create_group"
+      android:text="@string/group_create_button"
+      />
+  </LinearLayout>
+
+  <ListView
+      android:id="@+id/list_view_group"
+      style="@style/grouplist"
+      android:layout_below="@id/linear_layout_create_group"
+      android:dividerHeight="2dp" />
+
+  <TextView
+    android:id="@+id/group_peer_header"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="@string/group_peer_header"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_below="@id/list_view_group"
+    />
+  <LinearLayout 
+    android:layout_below="@id/group_peer_header"
+    android:id="@+id/linear_layout_group_peer_action"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <EditText 
+      android:layout_width="0dp"
+      android:layout_weight="2"
+      android:layout_height="wrap_content"
+      android:id="@+id/edit_text_group_peer"/>
+    <Button 
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:id="@+id/button_join_group"
+      android:text="@string/group_peer_join_button"
+      />
+  </LinearLayout> 
+  <ListView
+    android:id="@+id/list_view_group_peer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/linear_layout_group_peer_action"
+    android:dividerHeight="2dp" />
+
+</RelativeLayout>

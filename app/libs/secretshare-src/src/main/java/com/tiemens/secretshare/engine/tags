@@ -1,0 +1,86 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CombineOutput	SecretShare.java	/^        public CombineOutput(final BigInteger inSecret)$/;"	m	class:SecretShare.CombineOutput
+CombineOutput	SecretShare.java	/^    public static class CombineOutput$/;"	c	class:SecretShare
+ParanoidOutput	SecretShare.java	/^    public static class ParanoidOutput$/;"	c	class:SecretShare
+PublicInfo	SecretShare.java	/^        public PublicInfo(final Integer inN,$/;"	m	class:SecretShare.PublicInfo
+PublicInfo	SecretShare.java	/^    public static class PublicInfo$/;"	c	class:SecretShare
+SecretShare	SecretShare.java	/^    public SecretShare(final PublicInfo inPublicInfo)$/;"	m	class:SecretShare
+SecretShare	SecretShare.java	/^public class SecretShare$/;"	c
+ShareInfo	SecretShare.java	/^        public ShareInfo(final int inX,$/;"	m	class:SecretShare.ShareInfo
+ShareInfo	SecretShare.java	/^    public static class ShareInfo$/;"	c	class:SecretShare
+SplitSecretOutput	SecretShare.java	/^        public SplitSecretOutput(final PublicInfo inPublicInfo,$/;"	m	class:SecretShare.SplitSecretOutput
+SplitSecretOutput	SecretShare.java	/^    public static class SplitSecretOutput$/;"	c	class:SecretShare
+agreedAnswerEveryTime	SecretShare.java	/^        private BigInteger agreedAnswerEveryTime;$/;"	f	class:SecretShare.ParanoidOutput	file:
+checkAndReturn	SecretShare.java	/^    private static BigInteger checkAndReturn(String which,$/;"	m	class:SecretShare	file:
+checkForDuplicatesOrThrow	SecretShare.java	/^    private void checkForDuplicatesOrThrow(List<ShareInfo> shares)$/;"	m	class:SecretShare	file:
+checkThatModulusIsAppropriate	SecretShare.java	/^    public static void checkThatModulusIsAppropriate(BigInteger primeModulus,$/;"	m	class:SecretShare
+com.tiemens.secretshare.engine	SecretShare.java	/^package com.tiemens.secretshare.engine;$/;"	p
+combinations	SecretShare.java	/^        private final List<String> combinations = new ArrayList<String>();$/;"	f	class:SecretShare.ParanoidOutput	file:
+combine	SecretShare.java	/^    public CombineOutput combine(final List<ShareInfo> usetheseshares)$/;"	m	class:SecretShare
+combineParanoid	SecretShare.java	/^    public ParanoidOutput combineParanoid(List<ShareInfo> shares)$/;"	m	class:SecretShare
+combineParanoid	SecretShare.java	/^    public ParanoidOutput combineParanoid(List<ShareInfo> shares,$/;"	m	class:SecretShare
+createAppropriateModulusForSecret	SecretShare.java	/^    public static BigInteger createAppropriateModulusForSecret(BigInteger secret)$/;"	m	class:SecretShare
+createRandomModulusForSecret	SecretShare.java	/^    public static BigInteger createRandomModulusForSecret(BigInteger secret)$/;"	m	class:SecretShare
+createRandomModulusForSecret	SecretShare.java	/^    public static BigInteger createRandomModulusForSecret(BigInteger secret,$/;"	m	class:SecretShare
+date	SecretShare.java	/^        private final String date;                   \/\/ yyyy-MM-dd HH:mm:ss string$/;"	f	class:SecretShare.PublicInfo	file:
+debugDump	SecretShare.java	/^        public String debugDump()$/;"	m	class:SecretShare.PublicInfo
+debugDump	SecretShare.java	/^        public String debugDump()$/;"	m	class:SecretShare.ShareInfo
+debugDump	SecretShare.java	/^        public String debugDump()$/;"	m	class:SecretShare.SplitSecretOutput
+debugPrintEquationCoefficients	SecretShare.java	/^        public void debugPrintEquationCoefficients(PrintStream out)$/;"	m	class:SecretShare.SplitSecretOutput
+description	SecretShare.java	/^        private final String description;            \/\/ any string, including null$/;"	f	class:SecretShare.PublicInfo	file:
+dumpshares	SecretShare.java	/^    private String dumpshares(List<ShareInfo> usetheseshares)$/;"	m	class:SecretShare	file:
+equals	SecretShare.java	/^        public boolean equals(Object obj)$/;"	m	class:SecretShare.ShareInfo
+equalsType	SecretShare.java	/^        public boolean equalsType(ShareInfo other)$/;"	m	class:SecretShare.ShareInfo
+getAgreedAnswer	SecretShare.java	/^        public BigInteger getAgreedAnswer()$/;"	m	class:SecretShare.ParanoidOutput
+getDate	SecretShare.java	/^        public final String getDate()$/;"	m	class:SecretShare.PublicInfo
+getDescription	SecretShare.java	/^        public final String getDescription()$/;"	m	class:SecretShare.PublicInfo
+getIndex	SecretShare.java	/^        public final int getIndex()$/;"	m	class:SecretShare.ShareInfo
+getK	SecretShare.java	/^        public final int getK()$/;"	m	class:SecretShare.PublicInfo
+getN	SecretShare.java	/^        public final int getN()$/;"	m	class:SecretShare.PublicInfo
+getNforSplit	SecretShare.java	/^        public final int getNforSplit()$/;"	m	class:SecretShare.PublicInfo
+getParanoidCombinationOutput	SecretShare.java	/^        public String getParanoidCombinationOutput()$/;"	m	class:SecretShare.ParanoidOutput
+getParanoidCompleteOutput	SecretShare.java	/^        public String getParanoidCompleteOutput()$/;"	m	class:SecretShare.ParanoidOutput
+getParanoidHeaderOutput	SecretShare.java	/^        public String getParanoidHeaderOutput()$/;"	m	class:SecretShare.ParanoidOutput
+getPrimeModulus	SecretShare.java	/^        public final BigInteger getPrimeModulus()$/;"	m	class:SecretShare.PublicInfo
+getPrimeUsedFor192bitSecretPayload	SecretShare.java	/^    public static BigInteger getPrimeUsedFor192bitSecretPayload()$/;"	m	class:SecretShare
+getPrimeUsedFor384bitSecretPayload	SecretShare.java	/^    public static BigInteger getPrimeUsedFor384bitSecretPayload()$/;"	m	class:SecretShare
+getPrimeUsedFor4096bigSecretPayload	SecretShare.java	/^    public static BigInteger getPrimeUsedFor4096bigSecretPayload()$/;"	m	class:SecretShare
+getPublicInfo	SecretShare.java	/^        public final PublicInfo getPublicInfo()$/;"	m	class:SecretShare.ShareInfo
+getPublicInfo	SecretShare.java	/^        public final PublicInfo getPublicInfo()$/;"	m	class:SecretShare.SplitSecretOutput
+getSecret	SecretShare.java	/^        public final BigInteger getSecret()$/;"	m	class:SecretShare.CombineOutput
+getShare	SecretShare.java	/^        public final BigInteger getShare()$/;"	m	class:SecretShare.ShareInfo
+getShareInfos	SecretShare.java	/^        public final List<ShareInfo> getShareInfos()$/;"	m	class:SecretShare.SplitSecretOutput
+getUuid	SecretShare.java	/^        public final String getUuid()$/;"	m	class:SecretShare.PublicInfo
+getX	SecretShare.java	/^        public final int getX()$/;"	m	class:SecretShare.ShareInfo
+getXasBigInteger	SecretShare.java	/^        public final BigInteger getXasBigInteger()$/;"	m	class:SecretShare.ShareInfo
+hashCode	SecretShare.java	/^        public int hashCode()$/;"	m	class:SecretShare.ShareInfo
+isTheModulusAppropriateForSecret	SecretShare.java	/^    public static boolean isTheModulusAppropriateForSecret(BigInteger modulus,$/;"	m	class:SecretShare
+k	SecretShare.java	/^        private final int k;                         \/\/ determines the order of the polynomial$/;"	f	class:SecretShare.PublicInfo	file:
+matches	SecretShare.java	/^    private boolean matches(Object a, Object b)$/;"	m	class:SecretShare	file:
+maximumCombinationsAllowedToTest	SecretShare.java	/^        private Integer maximumCombinationsAllowedToTest; \/\/ null means "all"$/;"	f	class:SecretShare.ParanoidOutput	file:
+n	SecretShare.java	/^        private final Integer n;$/;"	f	class:SecretShare.PublicInfo	file:
+out	SecretShare.java	/^    private final PrintStream out = null;$/;"	f	class:SecretShare	file:
+polynomial	SecretShare.java	/^        private final PolyEquationImpl polynomial;$/;"	f	class:SecretShare.SplitSecretOutput	file:
+primeModulus	SecretShare.java	/^        private final BigInteger primeModulus;       \/\/ can be null$/;"	f	class:SecretShare.PublicInfo	file:
+println	SecretShare.java	/^    private void println(String line)$/;"	m	class:SecretShare	file:
+publicInfo	SecretShare.java	/^        private final PublicInfo publicInfo;$/;"	f	class:SecretShare.ShareInfo	file:
+publicInfo	SecretShare.java	/^        private final PublicInfo publicInfo;$/;"	f	class:SecretShare.SplitSecretOutput	file:
+publicInfo	SecretShare.java	/^    private final PublicInfo publicInfo;$/;"	f	class:SecretShare	file:
+randomizeCoeffs	SecretShare.java	/^    private void randomizeCoeffs(final BigInteger[] coeffs,$/;"	m	class:SecretShare	file:
+recordCombination	SecretShare.java	/^        public void recordCombination(BigInteger currentCombinationNumber,$/;"	m	class:SecretShare.ParanoidOutput
+sanityCheckPublicInfos	SecretShare.java	/^    private void sanityCheckPublicInfos(PublicInfo      outer,$/;"	m	class:SecretShare	file:
+sanityCheckShareInfo	SecretShare.java	/^    private void sanityCheckShareInfo(final PublicInfo outer,$/;"	m	class:SecretShare	file:
+secret	SecretShare.java	/^        private final BigInteger secret;$/;"	f	class:SecretShare.CombineOutput	file:
+share	SecretShare.java	/^        private final BigInteger share;   \/\/ our piece of the secret$/;"	f	class:SecretShare.ShareInfo	file:
+sharesInfo	SecretShare.java	/^        private final List<ShareInfo> sharesInfo = new ArrayList<ShareInfo>();$/;"	f	class:SecretShare.SplitSecretOutput	file:
+split	SecretShare.java	/^    public SplitSecretOutput split(final BigInteger secret)$/;"	m	class:SecretShare
+split	SecretShare.java	/^    public SplitSecretOutput split(final BigInteger secret,$/;"	m	class:SecretShare
+toString	SecretShare.java	/^        public String toString()$/;"	m	class:SecretShare.PublicInfo
+totalNumberOfCombinations	SecretShare.java	/^        private BigInteger totalNumberOfCombinations;$/;"	f	class:SecretShare.ParanoidOutput	file:
+uuid	SecretShare.java	/^        private final String uuid;                   \/\/ a "Random" UUID string$/;"	f	class:SecretShare.PublicInfo	file:
+x	SecretShare.java	/^        private final int x;              \/\/ this is aka "the index", the x in "f(x)"$/;"	f	class:SecretShare.ShareInfo	file:

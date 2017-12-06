@@ -1,0 +1,828 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACK_RECEIVED	meshms/MeshMSMessage.java	/^		ACK_RECEIVED$/;"	e	enum:MeshMSMessage.Type	file:
+ANY	SubscriberId.java	/^	public static SubscriberId ANY;$/;"	f	class:SubscriberId
+AbstractExternalInterface	AbstractExternalInterface.java	/^	public AbstractExternalInterface(ChannelSelector selector, int loopbackMdpPort) throws IOException {$/;"	m	class:AbstractExternalInterface
+AbstractExternalInterface	AbstractExternalInterface.java	/^public abstract class AbstractExternalInterface  extends ChannelSelector.Handler {$/;"	c
+AbstractId	AbstractId.java	/^	public AbstractId(ByteBuffer b) throws InvalidBinaryException {$/;"	m	class:AbstractId
+AbstractId	AbstractId.java	/^	public AbstractId(String hex) throws InvalidHexException {$/;"	m	class:AbstractId
+AbstractId	AbstractId.java	/^	public AbstractId(byte[] binary) throws InvalidBinaryException {$/;"	m	class:AbstractId
+AbstractId	AbstractId.java	/^public abstract class AbstractId {$/;"	c
+AbstractJniResults	AbstractJniResults.java	/^public abstract class AbstractJniResults implements IJniResults {$/;"	c
+AbstractMdpProtocol	AbstractMdpProtocol.java	/^	public AbstractMdpProtocol(ChannelSelector selector, int loopbackMdpPort, AsyncResult<T> results) throws IOException {$/;"	m	class:AbstractMdpProtocol
+AbstractMdpProtocol	AbstractMdpProtocol.java	/^	public AbstractMdpProtocol(ChannelSelector selector, int loopbackMdpPort, AsyncResult<T> results, SubscriberId sid, int port) throws IOException {$/;"	m	class:AbstractMdpProtocol
+AbstractMdpProtocol	AbstractMdpProtocol.java	/^	public AbstractMdpProtocol(ChannelSelector selector, int loopbackMdpPort, AsyncResult<T> results, int port) throws IOException {$/;"	m	class:AbstractMdpProtocol
+AbstractMdpProtocol	AbstractMdpProtocol.java	/^public abstract class AbstractMdpProtocol<T>  extends ChannelSelector.Handler {$/;"	c
+AsyncResult	AsyncResult.java	/^public interface AsyncResult<T> {$/;"	i
+BINARY_SIZE	FileHash.java	/^	public static final int BINARY_SIZE = 64;$/;"	f	class:FileHash
+BINARY_SIZE	SubscriberId.java	/^	public static final int BINARY_SIZE = 32;$/;"	f	class:SubscriberId
+BK	rhizome/RhizomeIncompleteManifest.java	/^	public BundleKey BK;$/;"	f	class:RhizomeIncompleteManifest
+BK	rhizome/RhizomeManifest.java	/^	public final BundleKey BK;$/;"	f	class:RhizomeManifest
+BuffStream	MdpServiceLookup.java	/^		public BuffStream(ByteBuffer buff){$/;"	m	class:MdpServiceLookup.BuffStream
+BuffStream	MdpServiceLookup.java	/^	public static class BuffStream extends InputStream{$/;"	c	class:MdpServiceLookup
+BundleExtra	rhizome/RhizomeCommon.java	/^	private static class BundleExtra {$/;"	c	class:RhizomeCommon
+BundleId	BundleId.java	/^	public BundleId(ByteBuffer b) throws InvalidBinaryException {$/;"	m	class:BundleId
+BundleId	BundleId.java	/^	public BundleId(String hex) throws InvalidHexException {$/;"	m	class:BundleId
+BundleId	BundleId.java	/^	public BundleId(byte[] binary) throws InvalidBinaryException {$/;"	m	class:BundleId
+BundleId	BundleId.java	/^public class BundleId extends AbstractId {$/;"	c
+BundleKey	BundleKey.java	/^	public BundleKey(ByteBuffer b) throws InvalidBinaryException {$/;"	m	class:BundleKey
+BundleKey	BundleKey.java	/^	public BundleKey(String hex) throws InvalidHexException {$/;"	m	class:BundleKey
+BundleKey	BundleKey.java	/^	public BundleKey(byte[] binary) throws InvalidBinaryException {$/;"	m	class:BundleKey
+BundleKey	BundleKey.java	/^public class BundleKey extends AbstractId {$/;"	c
+BundleSecret	BundleSecret.java	/^	public BundleSecret(ByteBuffer b) throws InvalidBinaryException {$/;"	m	class:BundleSecret
+BundleSecret	BundleSecret.java	/^	public BundleSecret(String hex) throws InvalidHexException {$/;"	m	class:BundleSecret
+BundleSecret	BundleSecret.java	/^	public BundleSecret(byte[] binary) throws InvalidBinaryException {$/;"	m	class:BundleSecret
+BundleSecret	BundleSecret.java	/^public class BundleSecret extends AbstractId {$/;"	c
+CRYPTO_FAIL	rhizome/RhizomePayloadStatus.java	/^    CRYPTO_FAIL(5),	\/\/ cannot encrypt\/decrypt (payload key unknown)$/;"	e	enum:RhizomePayloadStatus	file:
+ChannelSelector	ChannelSelector.java	/^	public ChannelSelector() throws IOException {$/;"	m	class:ChannelSelector
+ChannelSelector	ChannelSelector.java	/^public class ChannelSelector {$/;"	c
+ConfigAction	ServalDCommand.java	/^	public enum ConfigAction{$/;"	g	class:ServalDCommand
+ConfigItems	ServalDCommand.java	/^	public static class ConfigItems extends JniResult{$/;"	c	class:ServalDCommand
+Conversation	ServalDCommand.java	/^	public static class Conversation extends JniResult{$/;"	c	class:ServalDCommand
+DUPLICATE	rhizome/RhizomeBundleStatus.java	/^    DUPLICATE(2),		\/\/ equivalent bundle already in store$/;"	e	enum:RhizomeBundleStatus	file:
+EMPTY	rhizome/RhizomePayloadStatus.java	/^    EMPTY(0),		\/\/ payload is empty (zero length)$/;"	e	enum:RhizomePayloadStatus	file:
+ERROR	meshms/MeshMSStatus.java	/^    ERROR(-1), 			\/\/ unexpected error (underlying failure)$/;"	e	enum:MeshMSStatus	file:
+ERROR	rhizome/RhizomeBundleStatus.java	/^    ERROR(-1), 			\/\/ internal error$/;"	e	enum:RhizomeBundleStatus	file:
+ERROR	rhizome/RhizomePayloadStatus.java	/^    ERROR(-1), 		\/\/ unexpected error (underlying failure)$/;"	e	enum:RhizomePayloadStatus	file:
+EVICTED	rhizome/RhizomePayloadStatus.java	/^    EVICTED(7)		\/\/ other payloads in our store are more important$/;"	e	enum:RhizomePayloadStatus	file:
+FAKE	rhizome/RhizomeBundleStatus.java	/^    FAKE(5),			\/\/ manifest signature not valid$/;"	e	enum:RhizomeBundleStatus	file:
+FileHash	FileHash.java	/^	public FileHash(ByteBuffer b) throws InvalidBinaryException {$/;"	m	class:FileHash
+FileHash	FileHash.java	/^	public FileHash(String hex) throws InvalidHexException {$/;"	m	class:FileHash
+FileHash	FileHash.java	/^	public FileHash(byte[] binary) throws InvalidBinaryException {$/;"	m	class:FileHash
+FileHash	FileHash.java	/^public class FileHash extends AbstractId {$/;"	c
+HEADER_LEN	MdpPacket.java	/^	private static final int HEADER_LEN = 32+4+32+4+1+1+1;$/;"	f	class:MdpPacket	file:
+Handler	ChannelSelector.java	/^	public static abstract class Handler{$/;"	c	class:ChannelSelector
+IJniResults	IJniResults.java	/^public interface IJniResults {$/;"	i
+IJniServer	IJniServer.java	/^public interface IJniServer {$/;"	i
+INCONSISTENT	rhizome/RhizomeBundleStatus.java	/^    INCONSISTENT(6),	\/\/ manifest filesize\/filehash does not match supplied payload$/;"	e	enum:RhizomeBundleStatus	file:
+INVALID	rhizome/RhizomeBundleStatus.java	/^    INVALID(4),			\/\/ manifest is invalid$/;"	e	enum:RhizomeBundleStatus	file:
+IdentityResult	ServalDCommand.java	/^	public static class IdentityResult extends JniResult {$/;"	c	class:ServalDCommand
+InvalidBinaryException	AbstractId.java	/^		private InvalidBinaryException(AbstractId id, String message) {$/;"	m	class:AbstractId.InvalidBinaryException	file:
+InvalidBinaryException	AbstractId.java	/^	public static class InvalidBinaryException extends Exception {$/;"	c	class:AbstractId
+InvalidException	meshms/MeshMSStatus.java	/^		public InvalidException(int code) {$/;"	m	class:MeshMSStatus.InvalidException
+InvalidException	meshms/MeshMSStatus.java	/^	public static class InvalidException extends ServalDInterfaceException$/;"	c	class:MeshMSStatus
+InvalidException	rhizome/RhizomeBundleStatus.java	/^		public InvalidException(int code) {$/;"	m	class:RhizomeBundleStatus.InvalidException
+InvalidException	rhizome/RhizomeBundleStatus.java	/^	public static class InvalidException extends ServalDInterfaceException$/;"	c	class:RhizomeBundleStatus
+InvalidException	rhizome/RhizomePayloadStatus.java	/^		public InvalidException(int code) {$/;"	m	class:RhizomePayloadStatus.InvalidException
+InvalidException	rhizome/RhizomePayloadStatus.java	/^	public static class InvalidException extends ServalDInterfaceException$/;"	c	class:RhizomePayloadStatus
+InvalidHexException	AbstractId.java	/^		private InvalidHexException(AbstractId id, String message) {$/;"	m	class:AbstractId.InvalidHexException	file:
+InvalidHexException	AbstractId.java	/^	public static class InvalidHexException extends Exception {$/;"	c	class:AbstractId
+JniResult	JniResult.java	/^public class JniResult implements IJniResults{$/;"	c
+JniResultList	JniResultList.java	/^	public JniResultList(AsyncResult<T> results){$/;"	m	class:JniResultList
+JniResultList	JniResultList.java	/^public abstract class JniResultList<T extends JniResult> implements IJniResults {$/;"	c
+KeyringCommon	keyring/KeyringCommon.java	/^public class KeyringCommon$/;"	c
+KeyringIdentity	keyring/KeyringIdentity.java	/^	protected KeyringIdentity(int rowNumber,$/;"	m	class:KeyringIdentity
+KeyringIdentity	keyring/KeyringIdentity.java	/^public class KeyringIdentity {$/;"	c
+KeyringIdentityList	keyring/KeyringIdentityList.java	/^	public KeyringIdentityList(ServalDHttpConnectionFactory connector)$/;"	m	class:KeyringIdentityList
+KeyringIdentityList	keyring/KeyringIdentityList.java	/^public class KeyringIdentityList {$/;"	c
+LookupResult	ServalDCommand.java	/^	public static class LookupResult extends JniResult {$/;"	c	class:ServalDCommand
+MDP_FLAG_BIND	MdpPacket.java	/^	public static final byte MDP_FLAG_BIND = (1<<2);$/;"	f	class:MdpPacket
+MDP_FLAG_CLOSE	MdpPacket.java	/^	public static final byte MDP_FLAG_CLOSE = (1<<3);$/;"	f	class:MdpPacket
+MDP_FLAG_ERROR	MdpPacket.java	/^	public static final byte MDP_FLAG_ERROR = (1<<4);$/;"	f	class:MdpPacket
+MDP_FLAG_NO_CRYPT	MdpPacket.java	/^	public static final byte MDP_FLAG_NO_CRYPT = (1<<0);$/;"	f	class:MdpPacket
+MDP_FLAG_NO_SIGN	MdpPacket.java	/^	public static final byte MDP_FLAG_NO_SIGN = (1<<1);$/;"	f	class:MdpPacket
+MDP_INTERFACE	AbstractExternalInterface.java	/^	private static final int MDP_INTERFACE=4;$/;"	f	class:AbstractExternalInterface	file:
+MDP_INTERFACE_DOWN	AbstractExternalInterface.java	/^	private static final int MDP_INTERFACE_DOWN=1;$/;"	f	class:AbstractExternalInterface	file:
+MDP_INTERFACE_RECV	AbstractExternalInterface.java	/^	private static final int MDP_INTERFACE_RECV=2;$/;"	f	class:AbstractExternalInterface	file:
+MDP_INTERFACE_UP	AbstractExternalInterface.java	/^	private static final int MDP_INTERFACE_UP=0;$/;"	f	class:AbstractExternalInterface	file:
+MDP_MTU	MdpPacket.java	/^	private static final int MDP_MTU = 1400;$/;"	f	class:MdpPacket	file:
+MDP_PORT_DNALOOKUP	MdpPacket.java	/^	public static final int MDP_PORT_DNALOOKUP = 10;$/;"	f	class:MdpPacket
+MDP_PORT_ECHO	MdpPacket.java	/^	public static final int MDP_PORT_ECHO = 7;$/;"	f	class:MdpPacket
+MDP_PORT_SERVICE_DISCOVERY	MdpPacket.java	/^	public static final int MDP_PORT_SERVICE_DISCOVERY = 11;$/;"	f	class:MdpPacket
+MESSAGE_RECEIVED	meshms/MeshMSMessage.java	/^		MESSAGE_RECEIVED,$/;"	e	enum:MeshMSMessage.Type	file:
+MESSAGE_SENT	meshms/MeshMSMessage.java	/^		MESSAGE_SENT,$/;"	e	enum:MeshMSMessage.Type	file:
+ManifestResult	ServalDCommand.java	/^	public static class ManifestResult extends JniResult{$/;"	c	class:ServalDCommand
+MdpDnaLookup	MdpDnaLookup.java	/^	public MdpDnaLookup(ChannelSelector selector, int loopbackMdpPort, AsyncResult<ServalDCommand.LookupResult> results) throws IOException {$/;"	m	class:MdpDnaLookup
+MdpDnaLookup	MdpDnaLookup.java	/^public class MdpDnaLookup extends AbstractMdpProtocol<ServalDCommand.LookupResult> {$/;"	c
+MdpError	MdpSocket.java	/^		public MdpError(String msg){$/;"	m	class:MdpSocket.MdpError
+MdpError	MdpSocket.java	/^		public MdpError(String msg, Throwable cause){$/;"	m	class:MdpSocket.MdpError
+MdpError	MdpSocket.java	/^		public MdpError(Throwable cause){$/;"	m	class:MdpSocket.MdpError
+MdpError	MdpSocket.java	/^	public static class MdpError extends IOException{$/;"	c	class:MdpSocket
+MdpPacket	MdpPacket.java	/^	public MdpPacket(){$/;"	m	class:MdpPacket
+MdpPacket	MdpPacket.java	/^public class MdpPacket {$/;"	c
+MdpServiceLookup	MdpServiceLookup.java	/^	public MdpServiceLookup(ChannelSelector selector, int loopbackMdpPort, AsyncResult<ServiceResult> results) throws IOException {$/;"	m	class:MdpServiceLookup
+MdpServiceLookup	MdpServiceLookup.java	/^public class MdpServiceLookup extends AbstractMdpProtocol<MdpServiceLookup.ServiceResult> {$/;"	c
+MdpSocket	MdpSocket.java	/^	public MdpSocket(int loopbackMdpPort) throws IOException {$/;"	m	class:MdpSocket
+MdpSocket	MdpSocket.java	/^	public MdpSocket(int loopbackMdpPort, SubscriberId sid, int port) throws IOException {$/;"	m	class:MdpSocket
+MdpSocket	MdpSocket.java	/^	public MdpSocket(int loopbackMdpPort, int port) throws IOException {$/;"	m	class:MdpSocket
+MdpSocket	MdpSocket.java	/^public class MdpSocket{$/;"	c
+MeshMSCommon	meshms/MeshMSCommon.java	/^public class MeshMSCommon$/;"	c
+MeshMSConversation	meshms/MeshMSConversation.java	/^	protected MeshMSConversation(int rowNumber, int _id, SubscriberId my_sid, SubscriberId their_sid, boolean read, long last_message_offset, long read_offset)$/;"	m	class:MeshMSConversation
+MeshMSConversation	meshms/MeshMSConversation.java	/^public class MeshMSConversation {$/;"	c
+MeshMSConversationList	meshms/MeshMSConversationList.java	/^	public MeshMSConversationList(ServalDHttpConnectionFactory connector, SubscriberId sid)$/;"	m	class:MeshMSConversationList
+MeshMSConversationList	meshms/MeshMSConversationList.java	/^public class MeshMSConversationList {$/;"	c
+MeshMSException	meshms/MeshMSException.java	/^	public MeshMSException(String message, URL url) {$/;"	m	class:MeshMSException
+MeshMSException	meshms/MeshMSException.java	/^public abstract class MeshMSException extends Exception$/;"	c
+MeshMSMessage	meshms/MeshMSMessage.java	/^	protected MeshMSMessage(int rowNumber,$/;"	m	class:MeshMSMessage
+MeshMSMessage	meshms/MeshMSMessage.java	/^public class MeshMSMessage {$/;"	c
+MeshMSMessageList	meshms/MeshMSMessageList.java	/^	public MeshMSMessageList(ServalDHttpConnectionFactory connector, SubscriberId my_sid, SubscriberId their_sid)$/;"	m	class:MeshMSMessageList
+MeshMSMessageList	meshms/MeshMSMessageList.java	/^	public MeshMSMessageList(ServalDHttpConnectionFactory connector, SubscriberId my_sid, SubscriberId their_sid, String since_token)$/;"	m	class:MeshMSMessageList
+MeshMSMessageList	meshms/MeshMSMessageList.java	/^public class MeshMSMessageList {$/;"	c
+MeshMSProtocolFaultException	meshms/MeshMSProtocolFaultException.java	/^	public MeshMSProtocolFaultException(URL url) {$/;"	m	class:MeshMSProtocolFaultException
+MeshMSProtocolFaultException	meshms/MeshMSProtocolFaultException.java	/^public class MeshMSProtocolFaultException extends MeshMSException$/;"	c
+MeshMSStatus	meshms/MeshMSStatus.java	/^	private MeshMSStatus(int code) {$/;"	m	class:MeshMSStatus	file:
+MeshMSStatus	meshms/MeshMSStatus.java	/^public enum MeshMSStatus {$/;"	g
+MeshMSUnknownIdentityException	meshms/MeshMSUnknownIdentityException.java	/^	public MeshMSUnknownIdentityException(URL url) {$/;"	m	class:MeshMSUnknownIdentityException
+MeshMSUnknownIdentityException	meshms/MeshMSUnknownIdentityException.java	/^public class MeshMSUnknownIdentityException extends MeshMSException$/;"	c
+Message	ServalDCommand.java	/^	public static class Message extends JniResult{$/;"	c	class:ServalDCommand
+NEW	rhizome/RhizomeBundleStatus.java	/^    NEW(0),				\/\/ bundle is newer than store$/;"	e	enum:RhizomeBundleStatus	file:
+NEW	rhizome/RhizomePayloadStatus.java	/^    NEW(1),			\/\/ payload is not yet in store (added)$/;"	e	enum:RhizomePayloadStatus	file:
+NO_ROOM	rhizome/RhizomeBundleStatus.java	/^    NO_ROOM(7),			\/\/ doesn't fit; store may contain more important bundles$/;"	e	enum:RhizomeBundleStatus	file:
+OK	meshms/MeshMSStatus.java	/^    OK(0),				\/\/ operation succeeded, no bundle changed$/;"	e	enum:MeshMSStatus	file:
+OLD	rhizome/RhizomeBundleStatus.java	/^    OLD(3),				\/\/ newer version already in store$/;"	e	enum:RhizomeBundleStatus	file:
+PROTOCOL_FAULT	meshms/MeshMSStatus.java	/^    PROTOCOL_FAULT(3),	\/\/ missing or faulty ply bundle$/;"	e	enum:MeshMSStatus	file:
+PeerCount	ServalDCommand.java	/^	private static class PeerCount extends JniResult{$/;"	c	class:ServalDCommand
+QueryParam	ServalDHttpConnectionFactory.java	/^		public QueryParam(String key, String value) {$/;"	m	class:ServalDHttpConnectionFactory.QueryParam
+QueryParam	ServalDHttpConnectionFactory.java	/^	public static class QueryParam$/;"	c	interface:ServalDHttpConnectionFactory
+READONLY	rhizome/RhizomeBundleStatus.java	/^    READONLY(8)			\/\/ cannot modify manifest; secret unknown$/;"	e	enum:RhizomeBundleStatus	file:
+ResultList	ResultList.java	/^	public ResultList(List<T> results){$/;"	m	class:ResultList
+ResultList	ResultList.java	/^public class ResultList<T> implements AsyncResult<T> {$/;"	c
+RhizomeBundleList	rhizome/RhizomeBundleList.java	/^	public RhizomeBundleList(ServalDHttpConnectionFactory connector)$/;"	m	class:RhizomeBundleList
+RhizomeBundleList	rhizome/RhizomeBundleList.java	/^	public RhizomeBundleList(ServalDHttpConnectionFactory connector, String since_token)$/;"	m	class:RhizomeBundleList
+RhizomeBundleList	rhizome/RhizomeBundleList.java	/^public class RhizomeBundleList {$/;"	c
+RhizomeBundleStatus	rhizome/RhizomeBundleStatus.java	/^	private RhizomeBundleStatus(int code) {$/;"	m	class:RhizomeBundleStatus	file:
+RhizomeBundleStatus	rhizome/RhizomeBundleStatus.java	/^public enum RhizomeBundleStatus {$/;"	g
+RhizomeCommon	rhizome/RhizomeCommon.java	/^public class RhizomeCommon$/;"	c
+RhizomeDecryptionException	rhizome/RhizomeDecryptionException.java	/^	public RhizomeDecryptionException(URL url) {$/;"	m	class:RhizomeDecryptionException
+RhizomeDecryptionException	rhizome/RhizomeDecryptionException.java	/^public class RhizomeDecryptionException extends RhizomeException$/;"	c
+RhizomeDuplicateBundleException	rhizome/RhizomeDuplicateBundleException.java	/^	public RhizomeDuplicateBundleException(URL url) {$/;"	m	class:RhizomeDuplicateBundleException
+RhizomeDuplicateBundleException	rhizome/RhizomeDuplicateBundleException.java	/^public class RhizomeDuplicateBundleException extends RhizomeException$/;"	c
+RhizomeEncryptionException	rhizome/RhizomeEncryptionException.java	/^	public RhizomeEncryptionException(String message, URL url) {$/;"	m	class:RhizomeEncryptionException
+RhizomeEncryptionException	rhizome/RhizomeEncryptionException.java	/^public class RhizomeEncryptionException extends RhizomeException$/;"	c
+RhizomeException	rhizome/RhizomeException.java	/^	public RhizomeException(String message) {$/;"	m	class:RhizomeException
+RhizomeException	rhizome/RhizomeException.java	/^	public RhizomeException(String message, URL url) {$/;"	m	class:RhizomeException
+RhizomeException	rhizome/RhizomeException.java	/^public abstract class RhizomeException extends Exception$/;"	c
+RhizomeFakeManifestException	rhizome/RhizomeFakeManifestException.java	/^	public RhizomeFakeManifestException(String message, URL url) {$/;"	m	class:RhizomeFakeManifestException
+RhizomeFakeManifestException	rhizome/RhizomeFakeManifestException.java	/^public class RhizomeFakeManifestException extends RhizomeException$/;"	c
+RhizomeIncompleteManifest	rhizome/RhizomeIncompleteManifest.java	/^	public RhizomeIncompleteManifest()$/;"	m	class:RhizomeIncompleteManifest
+RhizomeIncompleteManifest	rhizome/RhizomeIncompleteManifest.java	/^	public RhizomeIncompleteManifest(RhizomeManifest m)$/;"	m	class:RhizomeIncompleteManifest
+RhizomeIncompleteManifest	rhizome/RhizomeIncompleteManifest.java	/^public class RhizomeIncompleteManifest {$/;"	c
+RhizomeInconsistencyException	rhizome/RhizomeInconsistencyException.java	/^	public RhizomeInconsistencyException(String message, URL url) {$/;"	m	class:RhizomeInconsistencyException
+RhizomeInconsistencyException	rhizome/RhizomeInconsistencyException.java	/^public class RhizomeInconsistencyException extends RhizomeException$/;"	c
+RhizomeInsertBundle	rhizome/RhizomeInsertBundle.java	/^	protected RhizomeInsertBundle(RhizomeBundleStatus status,$/;"	m	class:RhizomeInsertBundle
+RhizomeInsertBundle	rhizome/RhizomeInsertBundle.java	/^public class RhizomeInsertBundle extends RhizomeManifestBundle {$/;"	c
+RhizomeInvalidManifestException	rhizome/RhizomeInvalidManifestException.java	/^	public RhizomeInvalidManifestException(RhizomeIncompleteManifest manifest) {$/;"	m	class:RhizomeInvalidManifestException
+RhizomeInvalidManifestException	rhizome/RhizomeInvalidManifestException.java	/^	public RhizomeInvalidManifestException(String message, URL url) {$/;"	m	class:RhizomeInvalidManifestException
+RhizomeInvalidManifestException	rhizome/RhizomeInvalidManifestException.java	/^public class RhizomeInvalidManifestException extends RhizomeException$/;"	c
+RhizomeListBundle	rhizome/RhizomeListBundle.java	/^	protected RhizomeListBundle(RhizomeManifest manifest,$/;"	m	class:RhizomeListBundle
+RhizomeListBundle	rhizome/RhizomeListBundle.java	/^public class RhizomeListBundle {$/;"	c
+RhizomeManifest	rhizome/RhizomeManifest.java	/^	protected RhizomeManifest(	BundleId id, $/;"	m	class:RhizomeManifest
+RhizomeManifest	rhizome/RhizomeManifest.java	/^	protected RhizomeManifest(RhizomeIncompleteManifest m)$/;"	m	class:RhizomeManifest
+RhizomeManifest	rhizome/RhizomeManifest.java	/^public class RhizomeManifest {$/;"	c
+RhizomeManifestAlreadyStoredException	rhizome/RhizomeManifestAlreadyStoredException.java	/^	public RhizomeManifestAlreadyStoredException(URL url) {$/;"	m	class:RhizomeManifestAlreadyStoredException
+RhizomeManifestAlreadyStoredException	rhizome/RhizomeManifestAlreadyStoredException.java	/^public class RhizomeManifestAlreadyStoredException extends RhizomeException$/;"	c
+RhizomeManifestBundle	rhizome/RhizomeManifestBundle.java	/^	protected RhizomeManifestBundle(RhizomeManifest manifest,$/;"	m	class:RhizomeManifestBundle
+RhizomeManifestBundle	rhizome/RhizomeManifestBundle.java	/^public class RhizomeManifestBundle {$/;"	c
+RhizomeManifestNotFoundException	rhizome/RhizomeManifestNotFoundException.java	/^	public RhizomeManifestNotFoundException(URL url) {$/;"	m	class:RhizomeManifestNotFoundException
+RhizomeManifestNotFoundException	rhizome/RhizomeManifestNotFoundException.java	/^public class RhizomeManifestNotFoundException extends RhizomeException$/;"	c
+RhizomeManifestParseException	rhizome/RhizomeManifestParseException.java	/^	public RhizomeManifestParseException(String message) {$/;"	m	class:RhizomeManifestParseException
+RhizomeManifestParseException	rhizome/RhizomeManifestParseException.java	/^	public RhizomeManifestParseException(String message, Throwable cause) {$/;"	m	class:RhizomeManifestParseException
+RhizomeManifestParseException	rhizome/RhizomeManifestParseException.java	/^	public RhizomeManifestParseException(Throwable cause) {$/;"	m	class:RhizomeManifestParseException
+RhizomeManifestParseException	rhizome/RhizomeManifestParseException.java	/^public class RhizomeManifestParseException extends Exception$/;"	c
+RhizomeManifestSizeException	rhizome/RhizomeManifestSizeException.java	/^	public RhizomeManifestSizeException(File manifestFile, long maxSize)$/;"	m	class:RhizomeManifestSizeException
+RhizomeManifestSizeException	rhizome/RhizomeManifestSizeException.java	/^	public RhizomeManifestSizeException(String message, long size, long maxSize)$/;"	m	class:RhizomeManifestSizeException
+RhizomeManifestSizeException	rhizome/RhizomeManifestSizeException.java	/^public class RhizomeManifestSizeException extends Exception$/;"	c
+RhizomeOutdatedBundleException	rhizome/RhizomeOutdatedBundleException.java	/^	public RhizomeOutdatedBundleException(URL url) {$/;"	m	class:RhizomeOutdatedBundleException
+RhizomeOutdatedBundleException	rhizome/RhizomeOutdatedBundleException.java	/^public class RhizomeOutdatedBundleException extends RhizomeException$/;"	c
+RhizomePayloadBundle	rhizome/RhizomePayloadBundle.java	/^	protected RhizomePayloadBundle(RhizomeManifest manifest,$/;"	m	class:RhizomePayloadBundle
+RhizomePayloadBundle	rhizome/RhizomePayloadBundle.java	/^public class RhizomePayloadBundle {$/;"	c
+RhizomePayloadRawBundle	rhizome/RhizomePayloadRawBundle.java	/^	protected RhizomePayloadRawBundle(RhizomeManifest manifest,$/;"	m	class:RhizomePayloadRawBundle
+RhizomePayloadRawBundle	rhizome/RhizomePayloadRawBundle.java	/^public class RhizomePayloadRawBundle {$/;"	c
+RhizomePayloadStatus	rhizome/RhizomePayloadStatus.java	/^	private RhizomePayloadStatus(int code) {$/;"	m	class:RhizomePayloadStatus	file:
+RhizomePayloadStatus	rhizome/RhizomePayloadStatus.java	/^public enum RhizomePayloadStatus {$/;"	g
+RhizomeReadOnlyException	rhizome/RhizomeReadOnlyException.java	/^	public RhizomeReadOnlyException(String message, URL url) {$/;"	m	class:RhizomeReadOnlyException
+RhizomeReadOnlyException	rhizome/RhizomeReadOnlyException.java	/^public class RhizomeReadOnlyException extends RhizomeException$/;"	c
+RhizomeStoreFullException	rhizome/RhizomeStoreFullException.java	/^	public RhizomeStoreFullException(URL url) {$/;"	m	class:RhizomeStoreFullException
+RhizomeStoreFullException	rhizome/RhizomeStoreFullException.java	/^public class RhizomeStoreFullException extends RhizomeException$/;"	c
+SAME	rhizome/RhizomeBundleStatus.java	/^    SAME(1),			\/\/ same version already in store$/;"	e	enum:RhizomeBundleStatus	file:
+SID_LOCKED	meshms/MeshMSStatus.java	/^    SID_LOCKED(2),		\/\/ cannot decode or send messages for that SID$/;"	e	enum:MeshMSStatus	file:
+STATUS_ERROR	ServalDCommand.java	/^	public static final int STATUS_ERROR = 255;$/;"	f	class:ServalDCommand
+STORED	rhizome/RhizomePayloadStatus.java	/^    STORED(2),		\/\/ payload is already in store$/;"	e	enum:RhizomePayloadStatus	file:
+ServalDClient	ServalDClient.java	/^	public ServalDClient(int httpPort, String restfulUsername, String restfulPassword) throws ServalDInterfaceException {$/;"	m	class:ServalDClient
+ServalDClient	ServalDClient.java	/^public class ServalDClient implements ServalDHttpConnectionFactory$/;"	c
+ServalDCommand	ServalDCommand.java	/^	private ServalDCommand(){$/;"	m	class:ServalDCommand	file:
+ServalDCommand	ServalDCommand.java	/^public class ServalDCommand$/;"	c
+ServalDFailureException	ServalDFailureException.java	/^	public ServalDFailureException(String message) {$/;"	m	class:ServalDFailureException
+ServalDFailureException	ServalDFailureException.java	/^public class ServalDFailureException extends ServalDInterfaceException$/;"	c
+ServalDHttpConnectionFactory	ServalDHttpConnectionFactory.java	/^public interface ServalDHttpConnectionFactory {$/;"	i
+ServalDInterfaceException	ServalDInterfaceException.java	/^	public ServalDInterfaceException(String message) {$/;"	m	class:ServalDInterfaceException
+ServalDInterfaceException	ServalDInterfaceException.java	/^	public ServalDInterfaceException(String message, Throwable cause) {$/;"	m	class:ServalDInterfaceException
+ServalDInterfaceException	ServalDInterfaceException.java	/^	public ServalDInterfaceException(Throwable cause) {$/;"	m	class:ServalDInterfaceException
+ServalDInterfaceException	ServalDInterfaceException.java	/^public class ServalDInterfaceException extends Exception$/;"	c
+ServalDNotImplementedException	ServalDNotImplementedException.java	/^	public ServalDNotImplementedException(String message) {$/;"	m	class:ServalDNotImplementedException
+ServalDNotImplementedException	ServalDNotImplementedException.java	/^public class ServalDNotImplementedException extends ServalDInterfaceException$/;"	c
+ServerControl	ServerControl.java	/^	public ServerControl(){$/;"	m	class:ServerControl
+ServerControl	ServerControl.java	/^	public ServerControl(String execPath){$/;"	m	class:ServerControl
+ServerControl	ServerControl.java	/^public class ServerControl {$/;"	c
+ServiceResult	MdpServiceLookup.java	/^		public ServiceResult(SubscriberId subscriberId){$/;"	m	class:MdpServiceLookup.ServiceResult
+ServiceResult	MdpServiceLookup.java	/^	public static class ServiceResult extends Properties {$/;"	c	class:MdpServiceLookup
+Status	ServalDCommand.java	/^	public static class Status extends JniResult{$/;"	c	class:ServalDCommand
+Status	keyring/KeyringCommon.java	/^	public static class Status {$/;"	c	class:KeyringCommon
+Status	meshms/MeshMSCommon.java	/^	private static class Status {$/;"	c	class:MeshMSCommon
+Status	rhizome/RhizomeCommon.java	/^	private static class Status {$/;"	c	class:RhizomeCommon
+SubscriberId	SubscriberId.java	/^	public SubscriberId(ByteBuffer b) throws InvalidBinaryException {$/;"	m	class:SubscriberId
+SubscriberId	SubscriberId.java	/^	public SubscriberId(String hex) throws InvalidHexException {$/;"	m	class:SubscriberId
+SubscriberId	SubscriberId.java	/^	public SubscriberId(byte[] binary) throws InvalidBinaryException {$/;"	m	class:SubscriberId
+SubscriberId	SubscriberId.java	/^public class SubscriberId extends AbstractId {$/;"	c
+TEXT_FORMAT_MAX_SIZE	rhizome/RhizomeManifest.java	/^	public final static int TEXT_FORMAT_MAX_SIZE = 8192;$/;"	f	class:RhizomeManifest
+TOO_BIG	rhizome/RhizomePayloadStatus.java	/^    TOO_BIG(6),		\/\/ payload will never fit in our store$/;"	e	enum:RhizomePayloadStatus	file:
+Type	meshms/MeshMSMessage.java	/^	public enum Type {$/;"	g	class:MeshMSMessage
+UPDATED	meshms/MeshMSStatus.java	/^    UPDATED(1),			\/\/ operation succeeded, bundle updated$/;"	e	enum:MeshMSStatus	file:
+WRONG_HASH	rhizome/RhizomePayloadStatus.java	/^    WRONG_HASH(4),	\/\/ payload's hash does not match manifest$/;"	e	enum:RhizomePayloadStatus	file:
+WRONG_SIZE	rhizome/RhizomePayloadStatus.java	/^    WRONG_SIZE(3),	\/\/ payload's size does not match manifest$/;"	e	enum:RhizomePayloadStatus	file:
+_id	meshms/MeshMSConversation.java	/^	public final int _id;$/;"	f	class:MeshMSConversation
+_rowNumber	meshms/MeshMSConversation.java	/^	public final int _rowNumber;$/;"	f	class:MeshMSConversation
+_rowNumber	meshms/MeshMSMessage.java	/^	public final int _rowNumber;$/;"	f	class:MeshMSMessage
+abbreviation	AbstractId.java	/^	public String abbreviation() {$/;"	m	class:AbstractId
+abbreviation	SubscriberId.java	/^	public String abbreviation() {$/;"	m	class:SubscriberId
+aboutToWait	IJniServer.java	/^	long aboutToWait(long now, long nextRun, long nextWake);$/;"	m	interface:IJniServer
+accept	ChannelSelector.java	/^		public void accept(){};$/;"	m	class:ChannelSelector.Handler
+ackOffset	meshms/MeshMSMessage.java	/^	public final Long ackOffset;$/;"	f	class:MeshMSMessage
+advanceReadOffset	meshms/MeshMSCommon.java	/^	public static MeshMSStatus advanceReadOffset(ServalDHttpConnectionFactory connector, SubscriberId sid1, SubscriberId sid2, long offset) throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:MeshMSCommon
+author	ServalDCommand.java	/^		public SubscriberId author;$/;"	f	class:ServalDCommand.ManifestResult
+author	rhizome/RhizomeCommon.java	/^		public SubscriberId author;$/;"	f	class:RhizomeCommon.BundleExtra
+author	rhizome/RhizomeListBundle.java	/^	public final SubscriberId author;$/;"	f	class:RhizomeListBundle
+author	rhizome/RhizomeManifestBundle.java	/^	public final SubscriberId author;$/;"	f	class:RhizomeManifestBundle
+author	rhizome/RhizomePayloadBundle.java	/^	public final SubscriberId author;$/;"	f	class:RhizomePayloadBundle
+author	rhizome/RhizomePayloadRawBundle.java	/^	public final SubscriberId author;$/;"	f	class:RhizomePayloadRawBundle
+binary	AbstractId.java	/^	private final byte[] binary;$/;"	f	class:AbstractId	file:
+bind	MdpSocket.java	/^	public synchronized void bind(SubscriberId sid, int port) throws IOException {$/;"	m	class:MdpSocket
+bind	MdpSocket.java	/^	public void bind() throws IOException {$/;"	m	class:MdpSocket
+bind	MdpSocket.java	/^	public void bind(int port) throws IOException {$/;"	m	class:MdpSocket
+broadcastSid	SubscriberId.java	/^	public static SubscriberId broadcastSid;$/;"	f	class:SubscriberId
+buff	MdpPacket.java	/^	private ByteBuffer buff;$/;"	f	class:MdpPacket	file:
+buff	MdpServiceLookup.java	/^		private final ByteBuffer buff;$/;"	f	class:MdpServiceLookup.BuffStream	file:
+bundleExtraFromHeaders	rhizome/RhizomeCommon.java	/^	private static BundleExtra bundleExtraFromHeaders(HttpURLConnection conn) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon	file:
+bundleKey	ServalDCommand.java	/^		public BundleKey bundleKey;$/;"	f	class:ServalDCommand.ManifestResult
+bundle_status_code	rhizome/RhizomeCommon.java	/^		RhizomeBundleStatus bundle_status_code;$/;"	f	class:RhizomeCommon.Status
+bundle_status_message	rhizome/RhizomeCommon.java	/^		String bundle_status_message;$/;"	f	class:RhizomeCommon.Status
+channel	MdpSocket.java	/^	private DatagramChannel channel = null;$/;"	f	class:MdpSocket	file:
+clearStatus	ServerControl.java	/^	protected void clearStatus(){$/;"	m	class:ServerControl
+client	ServerControl.java	/^	private ServalDClient client;$/;"	f	class:ServerControl	file:
+close	AbstractExternalInterface.java	/^	public void close(){$/;"	m	class:AbstractExternalInterface
+close	AbstractMdpProtocol.java	/^	public void close(){$/;"	m	class:AbstractMdpProtocol
+close	MdpServiceLookup.java	/^		public void close() throws IOException {$/;"	m	class:MdpServiceLookup.BuffStream
+close	MdpSocket.java	/^	public void close() {$/;"	m	class:MdpSocket
+close	keyring/KeyringIdentityList.java	/^	public void close() throws IOException$/;"	m	class:KeyringIdentityList
+close	meshms/MeshMSConversationList.java	/^	public void close() throws IOException$/;"	m	class:MeshMSConversationList
+close	meshms/MeshMSMessageList.java	/^	public void close() throws IOException$/;"	m	class:MeshMSMessageList
+close	rhizome/RhizomeBundleList.java	/^	public void close() throws IOException$/;"	m	class:RhizomeBundleList
+code	meshms/MeshMSStatus.java	/^	final public int code;$/;"	f	class:MeshMSStatus
+code	rhizome/RhizomeBundleStatus.java	/^	final public int code;$/;"	f	class:RhizomeBundleStatus
+code	rhizome/RhizomePayloadStatus.java	/^	final public int code;$/;"	f	class:RhizomePayloadStatus
+column	JniResultList.java	/^	private int column =-1;$/;"	f	class:JniResultList	file:
+columnIndex__id	meshms/MeshMSConversationList.java	/^	int columnIndex__id;$/;"	f	class:MeshMSConversationList
+columnIndex_last_message	meshms/MeshMSConversationList.java	/^	int columnIndex_last_message;$/;"	f	class:MeshMSConversationList
+columnIndex_my_sid	meshms/MeshMSConversationList.java	/^	int columnIndex_my_sid;$/;"	f	class:MeshMSConversationList
+columnIndex_read	meshms/MeshMSConversationList.java	/^	int columnIndex_read;$/;"	f	class:MeshMSConversationList
+columnIndex_read_offset	meshms/MeshMSConversationList.java	/^	int columnIndex_read_offset;$/;"	f	class:MeshMSConversationList
+columnIndex_their_sid	meshms/MeshMSConversationList.java	/^	int columnIndex_their_sid;$/;"	f	class:MeshMSConversationList
+columnName	JniResult.java	/^	protected String columnName=null;$/;"	f	class:JniResult
+columns	JniResultList.java	/^	private int columns = -1;$/;"	f	class:JniResultList	file:
+command	JniResult.java	/^	protected String command[];$/;"	f	class:JniResult
+command	ServalDCommand.java	/^	public static synchronized JniResult command(String... args)$/;"	m	class:ServalDCommand
+command	ServalDCommand.java	/^	public static synchronized int command(final IJniResults callback, String... args)$/;"	m	class:ServalDCommand
+configActions	ServalDCommand.java	/^	public static void configActions(Object... arguments) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+configSync	ServalDCommand.java	/^	public static void configSync() throws ServalDFailureException{$/;"	m	class:ServalDCommand
+connect	ChannelSelector.java	/^		public void connect(){};$/;"	m	class:ChannelSelector.Handler
+connect	keyring/KeyringIdentityList.java	/^	public void connect(String pin) throws IOException, ServalDInterfaceException$/;"	m	class:KeyringIdentityList
+connect	meshms/MeshMSConversationList.java	/^	public void connect() throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:MeshMSConversationList
+connect	meshms/MeshMSMessageList.java	/^	public void connect() throws MeshMSException, ServalDInterfaceException, IOException$/;"	m	class:MeshMSMessageList
+connect	rhizome/RhizomeBundleList.java	/^	public void connect() throws IOException, ServalDInterfaceException$/;"	m	class:RhizomeBundleList
+count	ServalDCommand.java	/^		long count;$/;"	f	class:ServalDCommand.PeerCount
+create	JniResultList.java	/^	public abstract T create();$/;"	m	class:JniResultList
+crypt	ServalDCommand.java	/^		public int crypt;$/;"	f	class:ServalDCommand.ManifestResult
+crypt	rhizome/RhizomeIncompleteManifest.java	/^	public Integer crypt;$/;"	f	class:RhizomeIncompleteManifest
+crypt	rhizome/RhizomeManifest.java	/^	public final Integer crypt;$/;"	f	class:RhizomeManifest
+currentRow	JniResultList.java	/^	private T currentRow;$/;"	f	class:JniResultList	file:
+date	ServalDCommand.java	/^		public long date;$/;"	f	class:ServalDCommand.ManifestResult
+date	rhizome/RhizomeIncompleteManifest.java	/^	public Long date;$/;"	f	class:RhizomeIncompleteManifest
+date	rhizome/RhizomeManifest.java	/^	public final Long date; \/\/ can be null$/;"	f	class:RhizomeManifest
+decodeHeaderBundleStatus	rhizome/RhizomeCommon.java	/^	protected static void decodeHeaderBundleStatus(Status status, HttpURLConnection conn) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon
+decodeHeaderPayloadStatus	rhizome/RhizomeCommon.java	/^	protected static void decodeHeaderPayloadStatus(Status status, HttpURLConnection conn) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon
+decodeHeaderPayloadStatusOrNull	rhizome/RhizomeCommon.java	/^	protected static void decodeHeaderPayloadStatusOrNull(Status status, HttpURLConnection conn) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon
+decodeRestfulStatus	keyring/KeyringCommon.java	/^	protected static void decodeRestfulStatus(Status status) throws IOException, ServalDInterfaceException$/;"	m	class:KeyringCommon
+decodeRestfulStatus	meshms/MeshMSCommon.java	/^	protected static Status decodeRestfulStatus(JSONTokeniser json) throws IOException, ServalDInterfaceException$/;"	m	class:MeshMSCommon
+decodeRestfulStatus	rhizome/RhizomeCommon.java	/^	protected static void decodeRestfulStatus(Status status, JSONTokeniser json) throws IOException, ServalDInterfaceException$/;"	m	class:RhizomeCommon
+del	ServalDCommand.java	/^		del,$/;"	e	enum:ServalDCommand.ConfigAction	file:
+deleteConfig	ServalDCommand.java	/^	public static void deleteConfig(String name) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+did	ServalDCommand.java	/^		public String did;$/;"	f	class:ServalDCommand.IdentityResult
+did	ServalDCommand.java	/^		public String did;$/;"	f	class:ServalDCommand.LookupResult
+did	keyring/KeyringIdentity.java	/^	public final String did;$/;"	f	class:KeyringIdentity
+dnaLookup	ServalDCommand.java	/^	public static int dnaLookup(AsyncResult<LookupResult> results, String did, int timeout) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+dnaLookup	ServalDCommand.java	/^	public static int dnaLookup(IJniResults results, String did, int timeout) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+down	AbstractExternalInterface.java	/^	public void down() throws IOException {$/;"	m	class:AbstractExternalInterface
+dumpHeaders	keyring/KeyringCommon.java	/^	private static void dumpHeaders(HttpURLConnection conn, PrintStream out)$/;"	m	class:KeyringCommon	file:
+dumpHeaders	rhizome/RhizomeCommon.java	/^	private static void dumpHeaders(HttpURLConnection conn, PrintStream out)$/;"	m	class:RhizomeCommon	file:
+dumpStatus	keyring/KeyringCommon.java	/^	private static void dumpStatus(Status status, PrintStream out)$/;"	m	class:KeyringCommon	file:
+dumpStatus	rhizome/RhizomeCommon.java	/^	private static void dumpStatus(Status status, PrintStream out)$/;"	m	class:RhizomeCommon	file:
+endCol	JniResultList.java	/^	private void endCol(){$/;"	m	class:JniResultList	file:
+equals	AbstractId.java	/^	public boolean equals(Object other) {$/;"	m	class:AbstractId
+execPath	ServerControl.java	/^	private final String execPath;$/;"	f	class:ServerControl	file:
+extraFields	rhizome/RhizomeIncompleteManifest.java	/^	private HashMap<String,String> extraFields;$/;"	f	class:RhizomeIncompleteManifest	file:
+extraFields	rhizome/RhizomeManifest.java	/^	protected HashMap<String,String> extraFields;$/;"	f	class:RhizomeManifest
+fileHash	ServalDCommand.java	/^		public FileHash fileHash;$/;"	f	class:ServalDCommand.ManifestResult
+fileSize	ServalDCommand.java	/^		public long fileSize;$/;"	f	class:ServalDCommand.ManifestResult
+filehash	rhizome/RhizomeIncompleteManifest.java	/^	public FileHash filehash;$/;"	f	class:RhizomeIncompleteManifest
+filehash	rhizome/RhizomeManifest.java	/^	public final FileHash filehash; \/\/ null iff filesize == 0$/;"	f	class:RhizomeManifest
+filesize	rhizome/RhizomeIncompleteManifest.java	/^	public Long filesize;$/;"	f	class:RhizomeIncompleteManifest
+filesize	rhizome/RhizomeManifest.java	/^	public final long filesize;$/;"	f	class:RhizomeManifest
+fromCode	meshms/MeshMSStatus.java	/^	public static MeshMSStatus fromCode(int code) throws InvalidException$/;"	m	class:MeshMSStatus
+fromCode	rhizome/RhizomeBundleStatus.java	/^	public static RhizomeBundleStatus fromCode(int code) throws InvalidException$/;"	m	class:RhizomeBundleStatus
+fromCode	rhizome/RhizomePayloadStatus.java	/^	public static RhizomePayloadStatus fromCode(int code) throws InvalidException$/;"	m	class:RhizomePayloadStatus
+fromHere	rhizome/RhizomeListBundle.java	/^	public final int fromHere;$/;"	f	class:RhizomeListBundle
+fromTextFormat	rhizome/RhizomeIncompleteManifest.java	/^	public static RhizomeIncompleteManifest fromTextFormat(byte[] bytes) throws RhizomeManifestParseException$/;"	m	class:RhizomeIncompleteManifest
+fromTextFormat	rhizome/RhizomeIncompleteManifest.java	/^	public static RhizomeIncompleteManifest fromTextFormat(byte[] bytes, int off, int len) throws RhizomeManifestParseException$/;"	m	class:RhizomeIncompleteManifest
+fromTextFormat	rhizome/RhizomeIncompleteManifest.java	/^	static public RhizomeIncompleteManifest fromTextFormat(InputStream in) throws IOException, RhizomeManifestParseException$/;"	m	class:RhizomeIncompleteManifest
+fromTextFormat	rhizome/RhizomeManifest.java	/^	static public RhizomeManifest fromTextFormat(InputStream in) throws IOException, RhizomeManifestParseException$/;"	m	class:RhizomeManifest
+fromTextFormat	rhizome/RhizomeManifest.java	/^	static public RhizomeManifest fromTextFormat(byte[] bytes) throws RhizomeManifestParseException$/;"	m	class:RhizomeManifest
+fromTextFormat	rhizome/RhizomeManifest.java	/^	static public RhizomeManifest fromTextFormat(byte[] bytes, int off, int len) throws RhizomeManifestParseException$/;"	m	class:RhizomeManifest
+getBinarySize	AbstractId.java	/^	abstract int getBinarySize();$/;"	m	class:AbstractId
+getBinarySize	BundleId.java	/^	public int getBinarySize() {$/;"	m	class:BundleId
+getBinarySize	BundleKey.java	/^	public int getBinarySize() {$/;"	m	class:BundleKey
+getBinarySize	BundleSecret.java	/^	public int getBinarySize() {$/;"	m	class:BundleSecret
+getBinarySize	FileHash.java	/^	public int getBinarySize() {$/;"	m	class:FileHash
+getBinarySize	SubscriberId.java	/^	public int getBinarySize() {$/;"	m	class:SubscriberId
+getChannel	AbstractExternalInterface.java	/^	public SelectableChannel getChannel() throws IOException {$/;"	m	class:AbstractExternalInterface
+getChannel	AbstractMdpProtocol.java	/^	public SelectableChannel getChannel() throws IOException {$/;"	m	class:AbstractMdpProtocol
+getChannel	ChannelSelector.java	/^		public abstract SelectableChannel getChannel() throws IOException;$/;"	m	class:ChannelSelector.Handler
+getChannel	MdpSocket.java	/^	public SelectableChannel getChannel() throws IOException {$/;"	m	class:MdpSocket
+getConfig	ServalDCommand.java	/^	public static ConfigItems getConfig(String pattern) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+getConfigItem	ServalDCommand.java	/^	public static String getConfigItem(String name) throws ServalDFailureException{$/;"	m	class:ServalDCommand
+getConfigItemBoolean	ServalDCommand.java	/^	public static boolean getConfigItemBoolean(String name, boolean defaultValue) {$/;"	m	class:ServalDCommand
+getConfigItemInt	ServalDCommand.java	/^	public static int getConfigItemInt(String name, int defaultValue)  throws ServalDFailureException{$/;"	m	class:ServalDCommand
+getExecPath	ServerControl.java	/^	public String getExecPath() {$/;"	m	class:ServerControl
+getFlags	MdpPacket.java	/^	public byte getFlags(){$/;"	m	class:MdpPacket
+getInstancePath	ServerControl.java	/^	public String getInstancePath(){$/;"	m	class:ServerControl
+getInterest	AbstractExternalInterface.java	/^	public int getInterest() {$/;"	m	class:AbstractExternalInterface
+getInterest	AbstractMdpProtocol.java	/^	public int getInterest() {$/;"	m	class:AbstractMdpProtocol
+getInterest	ChannelSelector.java	/^		public abstract int getInterest();$/;"	m	class:ChannelSelector.Handler
+getLatestAckOffset	meshms/MeshMSMessageList.java	/^	public long getLatestAckOffset()$/;"	m	class:MeshMSMessageList
+getLocalPort	MdpPacket.java	/^	public int getLocalPort(){$/;"	m	class:MdpPacket
+getLocalSid	MdpPacket.java	/^	public SubscriberId getLocalSid() throws AbstractId.InvalidBinaryException {$/;"	m	class:MdpPacket
+getLoopbackMdpPort	ServerControl.java	/^	public int getLoopbackMdpPort() {$/;"	m	class:ServerControl
+getMdpDnaLookup	ServerControl.java	/^	public MdpDnaLookup getMdpDnaLookup(ChannelSelector selector, AsyncResult<ServalDCommand.LookupResult> results) throws ServalDInterfaceException, IOException {$/;"	m	class:ServerControl
+getMdpServiceLookup	ServerControl.java	/^	public MdpServiceLookup getMdpServiceLookup(ChannelSelector selector, AsyncResult<MdpServiceLookup.ServiceResult> results) throws ServalDInterfaceException, IOException {$/;"	m	class:ServerControl
+getPid	ServerControl.java	/^	public int getPid() {$/;"	m	class:ServerControl
+getQOS	MdpPacket.java	/^	public byte getQOS(){$/;"	m	class:MdpPacket
+getReadOffset	meshms/MeshMSMessageList.java	/^	public long getReadOffset()$/;"	m	class:MeshMSMessageList
+getRemotePort	MdpPacket.java	/^	public int getRemotePort(){$/;"	m	class:MdpPacket
+getRemoteSid	MdpPacket.java	/^	public SubscriberId getRemoteSid() throws AbstractId.InvalidBinaryException {$/;"	m	class:MdpPacket
+getRestfulClient	ServerControl.java	/^	public ServalDClient getRestfulClient() throws ServalDInterfaceException {$/;"	m	class:ServerControl
+getResult	JniResult.java	/^	public int getResult(){$/;"	m	class:JniResult
+getTTL	MdpPacket.java	/^	public byte getTTL(){$/;"	m	class:MdpPacket
+hashCode	AbstractId.java	/^	public int hashCode() {$/;"	m	class:AbstractId
+header	rhizome/RhizomeCommon.java	/^	private static <T> T header(HttpURLConnection conn, String header, Class<T> cls) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon	file:
+headerIntegerOrNull	rhizome/RhizomeCommon.java	/^	private static Integer headerIntegerOrNull(HttpURLConnection conn, String header) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon	file:
+headerOrNull	rhizome/RhizomeCommon.java	/^	private static <T> T headerOrNull(HttpURLConnection conn, String header, Class<T> cls) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon	file:
+headerQuotedStringOrNull	rhizome/RhizomeCommon.java	/^	private static String headerQuotedStringOrNull(HttpURLConnection conn, String header) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon	file:
+headerString	rhizome/RhizomeCommon.java	/^	private static String headerString(HttpURLConnection conn, String header) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon	file:
+headerStringOrNull	rhizome/RhizomeCommon.java	/^	private static String headerStringOrNull(HttpURLConnection conn, String header) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon	file:
+headerUnsignedLong	rhizome/RhizomeCommon.java	/^	private static long headerUnsignedLong(HttpURLConnection conn, String header) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon	file:
+headerUnsignedLongOrNull	rhizome/RhizomeCommon.java	/^	private static Long headerUnsignedLongOrNull(HttpURLConnection conn, String header) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon	file:
+headers	meshms/MeshMSConversationList.java	/^	private Vector<String> headers;$/;"	f	class:MeshMSConversationList	file:
+httpConnection	keyring/KeyringIdentityList.java	/^	private HttpURLConnection httpConnection;$/;"	f	class:KeyringIdentityList	file:
+httpConnection	meshms/MeshMSConversationList.java	/^	private HttpURLConnection httpConnection;$/;"	f	class:MeshMSConversationList	file:
+httpConnection	meshms/MeshMSMessageList.java	/^	private HttpURLConnection httpConnection;$/;"	f	class:MeshMSMessageList	file:
+httpConnection	rhizome/RhizomeBundleList.java	/^	private HttpURLConnection httpConnection;$/;"	f	class:RhizomeBundleList	file:
+httpConnector	keyring/KeyringIdentityList.java	/^	private ServalDHttpConnectionFactory httpConnector;$/;"	f	class:KeyringIdentityList	file:
+httpConnector	meshms/MeshMSConversationList.java	/^	private ServalDHttpConnectionFactory httpConnector;$/;"	f	class:MeshMSConversationList	file:
+httpConnector	meshms/MeshMSMessageList.java	/^	private ServalDHttpConnectionFactory httpConnector;$/;"	f	class:MeshMSMessageList	file:
+httpConnector	rhizome/RhizomeBundleList.java	/^	private ServalDHttpConnectionFactory httpConnector;$/;"	f	class:RhizomeBundleList	file:
+httpPort	ServalDClient.java	/^	private final int httpPort;$/;"	f	class:ServalDClient	file:
+httpPort	ServalDCommand.java	/^		public int httpPort;$/;"	f	class:ServalDCommand.Status
+httpPort	ServerControl.java	/^	private int httpPort=0;$/;"	f	class:ServerControl	file:
+http_status_code	keyring/KeyringCommon.java	/^		public int http_status_code;$/;"	f	class:KeyringCommon.Status
+http_status_code	meshms/MeshMSCommon.java	/^		public int http_status_code;$/;"	f	class:MeshMSCommon.Status
+http_status_code	rhizome/RhizomeCommon.java	/^		public int http_status_code;$/;"	f	class:RhizomeCommon.Status
+http_status_message	keyring/KeyringCommon.java	/^		public String http_status_message;$/;"	f	class:KeyringCommon.Status
+http_status_message	meshms/MeshMSCommon.java	/^		public String http_status_message;$/;"	f	class:MeshMSCommon.Status
+http_status_message	rhizome/RhizomeCommon.java	/^		public String http_status_message;$/;"	f	class:RhizomeCommon.Status
+id	ServalDCommand.java	/^		public long id;$/;"	f	class:ServalDCommand.Conversation
+id	ServalDCommand.java	/^		public long id;$/;"	f	class:ServalDCommand.Message
+id	rhizome/RhizomeIncompleteManifest.java	/^	public BundleId id;$/;"	f	class:RhizomeIncompleteManifest
+id	rhizome/RhizomeManifest.java	/^	public final BundleId id;$/;"	f	class:RhizomeManifest
+idPeers	ServalDCommand.java	/^	public static int idPeers(AsyncResult<IdentityResult> results) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+idPeers	ServalDCommand.java	/^	public static int idPeers(IJniResults results) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+identity	keyring/KeyringCommon.java	/^		public KeyringIdentity identity;$/;"	f	class:KeyringCommon.Status
+input_stream	keyring/KeyringCommon.java	/^		InputStream input_stream;$/;"	f	class:KeyringCommon.Status
+input_stream	rhizome/RhizomeCommon.java	/^		InputStream input_stream;$/;"	f	class:RhizomeCommon.Status
+insertTime	ServalDCommand.java	/^		public long insertTime;$/;"	f	class:ServalDCommand.ManifestResult
+insertTime	rhizome/RhizomeCommon.java	/^		public Long insertTime;$/;"	f	class:RhizomeCommon.BundleExtra
+insertTime	rhizome/RhizomeListBundle.java	/^	public final long insertTime;$/;"	f	class:RhizomeListBundle
+insertTime	rhizome/RhizomeManifestBundle.java	/^	public final Long insertTime;$/;"	f	class:RhizomeManifestBundle
+insertTime	rhizome/RhizomePayloadBundle.java	/^	public final Long insertTime;$/;"	f	class:RhizomePayloadBundle
+insertTime	rhizome/RhizomePayloadRawBundle.java	/^	public final Long insertTime;$/;"	f	class:RhizomePayloadRawBundle
+instancePath	ServalDCommand.java	/^		public String instancePath;$/;"	f	class:ServalDCommand.Status
+instancePath	ServerControl.java	/^	private String instancePath;$/;"	f	class:ServerControl	file:
+isBroadcast	SubscriberId.java	/^	public boolean isBroadcast() {$/;"	m	class:SubscriberId
+isConnected	keyring/KeyringIdentityList.java	/^	public boolean isConnected()$/;"	m	class:KeyringIdentityList
+isConnected	meshms/MeshMSConversationList.java	/^	public boolean isConnected()$/;"	m	class:MeshMSConversationList
+isConnected	meshms/MeshMSMessageList.java	/^	public boolean isConnected()$/;"	m	class:MeshMSMessageList
+isConnected	rhizome/RhizomeBundleList.java	/^	public boolean isConnected()$/;"	m	class:RhizomeBundleList
+isDelivered	meshms/MeshMSMessage.java	/^	public final boolean isDelivered;$/;"	f	class:MeshMSMessage
+isFieldNameChar	rhizome/RhizomeIncompleteManifest.java	/^	private static boolean isFieldNameChar(char c)$/;"	m	class:RhizomeIncompleteManifest	file:
+isFieldNameChar	rhizome/RhizomeManifest.java	/^	private static boolean isFieldNameChar(char c)$/;"	m	class:RhizomeManifest	file:
+isFieldNameFirstChar	rhizome/RhizomeIncompleteManifest.java	/^	private static boolean isFieldNameFirstChar(char c)$/;"	m	class:RhizomeIncompleteManifest	file:
+isFieldNameFirstChar	rhizome/RhizomeManifest.java	/^	private static boolean isFieldNameFirstChar(char c)$/;"	m	class:RhizomeManifest	file:
+isRead	meshms/MeshMSConversation.java	/^	public final boolean isRead;$/;"	f	class:MeshMSConversation
+isRead	meshms/MeshMSMessage.java	/^	public final boolean isRead;$/;"	f	class:MeshMSMessage
+isRunning	ServerControl.java	/^	public boolean isRunning() {$/;"	m	class:ServerControl
+isUp	AbstractExternalInterface.java	/^	private boolean isUp = false;$/;"	f	class:AbstractExternalInterface	file:
+json	keyring/KeyringCommon.java	/^		JSONTokeniser json;$/;"	f	class:KeyringCommon.Status
+json	keyring/KeyringIdentityList.java	/^	private JSONTokeniser json;$/;"	f	class:KeyringIdentityList	file:
+json	meshms/MeshMSConversationList.java	/^	private JSONTokeniser json;$/;"	f	class:MeshMSConversationList	file:
+json	meshms/MeshMSMessageList.java	/^	private JSONTokeniser json;$/;"	f	class:MeshMSMessageList	file:
+json	rhizome/RhizomeBundleList.java	/^	private JSONTokeniser json;$/;"	f	class:RhizomeBundleList	file:
+key	ServalDHttpConnectionFactory.java	/^		public final String key;$/;"	f	class:ServalDHttpConnectionFactory.QueryParam
+keyringAdd	ServalDCommand.java	/^	public static IdentityResult keyringAdd()$/;"	m	class:ServalDCommand
+keyringList	ServalDCommand.java	/^	public static int keyringList(IJniResults results) throws ServalDFailureException{$/;"	m	class:ServalDCommand
+keyringList	ServalDCommand.java	/^	public static int keyringList(final AsyncResult<IdentityResult> results) throws ServalDFailureException$/;"	m	class:ServalDCommand
+keyringListIdentities	ServalDClient.java	/^	public KeyringIdentityList keyringListIdentities(String pin) throws ServalDInterfaceException, IOException$/;"	m	class:ServalDClient
+keyringSetDidName	ServalDClient.java	/^	public KeyringIdentity keyringSetDidName(SubscriberId sid, String did, String name, String pin) throws ServalDInterfaceException, IOException$/;"	m	class:ServalDClient
+keyringSetDidName	ServalDCommand.java	/^	public static IdentityResult keyringSetDidName(SubscriberId sid, String did, String name) throws ServalDFailureException$/;"	m	class:ServalDCommand
+keyringSetTag	ServalDCommand.java	/^	public static IdentityResult keyringSetTag(SubscriberId sid, String tag, String value) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+lastMessageOffset	meshms/MeshMSConversation.java	/^	public final long lastMessageOffset;$/;"	f	class:MeshMSConversation
+last_message	ServalDCommand.java	/^		public long last_message;$/;"	f	class:ServalDCommand.Conversation
+latestAckOffset	meshms/MeshMSMessageList.java	/^	private long latestAckOffset;$/;"	f	class:MeshMSMessageList	file:
+listConversations	ServalDCommand.java	/^	public static int listConversations(AsyncResult<Conversation> result, final SubscriberId sender, int offset, int numRows) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+listConversations	ServalDCommand.java	/^	public static int listConversations(IJniResults callback, final SubscriberId sender, int offset, int numRows) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+listMessages	ServalDCommand.java	/^	public static int listMessages(AsyncResult<Message> result, final SubscriberId sender, final SubscriberId recipient) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+listMessages	ServalDCommand.java	/^	public static int listMessages(IJniResults callback, final SubscriberId sender, final SubscriberId recipient) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+loopback	MdpSocket.java	/^	private static final InetAddress loopback;$/;"	f	class:MdpSocket	file:
+loopbackMdpPort	MdpSocket.java	/^	private final int loopbackMdpPort;$/;"	f	class:MdpSocket	file:
+loopbackMdpPort	ServerControl.java	/^	private int loopbackMdpPort;$/;"	f	class:ServerControl	file:
+mMaxSize	rhizome/RhizomeManifestSizeException.java	/^	private long mMaxSize;$/;"	f	class:RhizomeManifestSizeException	file:
+mSize	rhizome/RhizomeManifestSizeException.java	/^	private long mSize;$/;"	f	class:RhizomeManifestSizeException	file:
+manifest	ServalDCommand.java	/^		public byte[] manifest;$/;"	f	class:ServalDCommand.ManifestResult
+manifest	rhizome/RhizomeListBundle.java	/^	public final RhizomeManifest manifest;$/;"	f	class:RhizomeListBundle
+manifest	rhizome/RhizomeManifestBundle.java	/^	public final RhizomeManifest manifest;$/;"	f	class:RhizomeManifestBundle
+manifest	rhizome/RhizomePayloadBundle.java	/^	public final RhizomeManifest manifest;$/;"	f	class:RhizomePayloadBundle
+manifest	rhizome/RhizomePayloadRawBundle.java	/^	public final RhizomeManifest manifest;$/;"	f	class:RhizomePayloadRawBundle
+manifestFromHeaders	rhizome/RhizomeCommon.java	/^	private static RhizomeManifest manifestFromHeaders(HttpURLConnection conn) throws ServalDInterfaceException$/;"	m	class:RhizomeCommon	file:
+manifestId	ServalDCommand.java	/^		public BundleId manifestId;$/;"	f	class:ServalDCommand.ManifestResult
+manifestText	rhizome/RhizomeManifestBundle.java	/^	public byte[] manifestText() throws ServalDInterfaceException$/;"	m	class:RhizomeManifestBundle
+mark	MdpServiceLookup.java	/^		public void mark(int readLimit){$/;"	m	class:MdpServiceLookup.BuffStream
+markAllConversationsRead	meshms/MeshMSCommon.java	/^	public static MeshMSStatus markAllConversationsRead(ServalDHttpConnectionFactory connector, SubscriberId sid1) throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:MeshMSCommon
+markAllMessagesRead	meshms/MeshMSCommon.java	/^	public static MeshMSStatus markAllMessagesRead(ServalDHttpConnectionFactory connector, SubscriberId sid1, SubscriberId sid2) throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:MeshMSCommon
+markSupported	MdpServiceLookup.java	/^		public boolean markSupported() {$/;"	m	class:MdpServiceLookup.BuffStream
+mdpInetPort	ServalDCommand.java	/^		public int mdpInetPort;$/;"	f	class:ServalDCommand.Status
+meshmsAdvanceReadOffset	ServalDClient.java	/^	public MeshMSStatus meshmsAdvanceReadOffset(SubscriberId sid1, SubscriberId sid2, long offset) throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:ServalDClient
+meshmsListConversations	ServalDClient.java	/^	public MeshMSConversationList meshmsListConversations(SubscriberId sid) throws ServalDInterfaceException, IOException, MeshMSException$/;"	m	class:ServalDClient
+meshmsListMessages	ServalDClient.java	/^	public MeshMSMessageList meshmsListMessages(SubscriberId sid1, SubscriberId sid2) throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:ServalDClient
+meshmsListMessagesSince	ServalDClient.java	/^	public MeshMSMessageList meshmsListMessagesSince(SubscriberId sid1, SubscriberId sid2, String token) throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:ServalDClient
+meshmsMarkAllConversationsRead	ServalDClient.java	/^	public MeshMSStatus meshmsMarkAllConversationsRead(SubscriberId sid1) throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:ServalDClient
+meshmsMarkAllMessagesRead	ServalDClient.java	/^	public MeshMSStatus meshmsMarkAllMessagesRead(SubscriberId sid1, SubscriberId sid2) throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:ServalDClient
+meshmsSendMessage	ServalDClient.java	/^	public MeshMSStatus meshmsSendMessage(SubscriberId sid1, SubscriberId sid2, String text) throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:ServalDClient
+meshms_status_code	meshms/MeshMSCommon.java	/^		public MeshMSStatus meshms_status_code;$/;"	f	class:MeshMSCommon.Status
+meshms_status_message	meshms/MeshMSCommon.java	/^		public String meshms_status_message;$/;"	f	class:MeshMSCommon.Status
+message	ServalDCommand.java	/^		public String message;$/;"	f	class:ServalDCommand.Message
+mspTunnelConnect	ServalDCommand.java	/^	public static Process mspTunnelConnect(String exec, int ip_port, SubscriberId msp_sid, int msp_port) throws IOException {$/;"	m	class:ServalDCommand
+mspTunnnelCreate	ServalDCommand.java	/^	public static Process mspTunnnelCreate(String exec, int ip_port, String serviceName, int msp_port) throws IOException {$/;"	m	class:ServalDCommand
+mspTunnnelCreate	ServalDCommand.java	/^	public static Process mspTunnnelCreate(String exec, int ip_port, int msp_port) throws IOException {$/;"	m	class:ServalDCommand
+mySid	meshms/MeshMSConversation.java	/^	public final SubscriberId mySid;$/;"	f	class:MeshMSConversation
+mySid	meshms/MeshMSMessage.java	/^	public final SubscriberId mySid;$/;"	f	class:MeshMSMessage
+my_sid	meshms/MeshMSMessageList.java	/^	private SubscriberId my_sid;$/;"	f	class:MeshMSMessageList	file:
+name	ServalDCommand.java	/^		public String name;$/;"	f	class:ServalDCommand.IdentityResult
+name	ServalDCommand.java	/^		public String name;$/;"	f	class:ServalDCommand.LookupResult
+name	ServalDCommand.java	/^		public String name;$/;"	f	class:ServalDCommand.ManifestResult
+name	keyring/KeyringIdentity.java	/^	public final String name;$/;"	f	class:KeyringIdentity
+name	rhizome/RhizomeIncompleteManifest.java	/^	public String name;$/;"	f	class:RhizomeIncompleteManifest
+name	rhizome/RhizomeManifest.java	/^	public final String name;$/;"	f	class:RhizomeManifest
+names	JniResultList.java	/^	private String names[];$/;"	f	class:JniResultList	file:
+newServalDHttpConnection	ServalDClient.java	/^	public HttpURLConnection newServalDHttpConnection(String path) throws ServalDInterfaceException, IOException$/;"	m	class:ServalDClient
+newServalDHttpConnection	ServalDClient.java	/^	public HttpURLConnection newServalDHttpConnection(String path, Iterable<QueryParam> query_params) throws ServalDInterfaceException, IOException$/;"	m	class:ServalDClient
+newServalDHttpConnection	ServalDHttpConnectionFactory.java	/^	public HttpURLConnection newServalDHttpConnection(String path) throws ServalDInterfaceException, IOException;$/;"	m	interface:ServalDHttpConnectionFactory
+newServalDHttpConnection	ServalDHttpConnectionFactory.java	/^	public HttpURLConnection newServalDHttpConnection(String path, Iterable<QueryParam> query_params) throws ServalDInterfaceException, IOException;$/;"	m	interface:ServalDHttpConnectionFactory
+nextBundle	rhizome/RhizomeBundleList.java	/^	public RhizomeListBundle nextBundle() throws ServalDInterfaceException, IOException$/;"	m	class:RhizomeBundleList
+nextConversation	meshms/MeshMSConversationList.java	/^	public MeshMSConversation nextConversation() throws ServalDInterfaceException, IOException$/;"	m	class:MeshMSConversationList
+nextIdentity	keyring/KeyringIdentityList.java	/^	public KeyringIdentity nextIdentity() throws ServalDInterfaceException, IOException$/;"	m	class:KeyringIdentityList
+nextMessage	meshms/MeshMSMessageList.java	/^	public MeshMSMessage nextMessage() throws ServalDInterfaceException, IOException$/;"	m	class:MeshMSMessageList
+offset	ServalDCommand.java	/^		public long offset;$/;"	f	class:ServalDCommand.Message
+offset	meshms/MeshMSMessage.java	/^	public final long offset;$/;"	f	class:MeshMSMessage
+org.servalproject.servaldna	AbstractExternalInterface.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	AbstractId.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	AbstractJniResults.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	AbstractMdpProtocol.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	AsyncResult.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	BundleId.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	BundleKey.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	BundleSecret.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	ChannelSelector.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	FileHash.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	IJniResults.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	IJniServer.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	JniResult.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	JniResultList.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	MdpDnaLookup.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	MdpPacket.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	MdpServiceLookup.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	MdpSocket.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	ResultList.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	ServalDClient.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	ServalDCommand.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	ServalDFailureException.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	ServalDHttpConnectionFactory.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	ServalDInterfaceException.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	ServalDNotImplementedException.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	ServerControl.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna	SubscriberId.java	/^package org.servalproject.servaldna;$/;"	p
+org.servalproject.servaldna.keyring	keyring/KeyringCommon.java	/^package org.servalproject.servaldna.keyring;$/;"	p
+org.servalproject.servaldna.keyring	keyring/KeyringIdentity.java	/^package org.servalproject.servaldna.keyring;$/;"	p
+org.servalproject.servaldna.keyring	keyring/KeyringIdentityList.java	/^package org.servalproject.servaldna.keyring;$/;"	p
+org.servalproject.servaldna.meshms	meshms/MeshMSCommon.java	/^package org.servalproject.servaldna.meshms;$/;"	p
+org.servalproject.servaldna.meshms	meshms/MeshMSConversation.java	/^package org.servalproject.servaldna.meshms;$/;"	p
+org.servalproject.servaldna.meshms	meshms/MeshMSConversationList.java	/^package org.servalproject.servaldna.meshms;$/;"	p
+org.servalproject.servaldna.meshms	meshms/MeshMSException.java	/^package org.servalproject.servaldna.meshms;$/;"	p
+org.servalproject.servaldna.meshms	meshms/MeshMSMessage.java	/^package org.servalproject.servaldna.meshms;$/;"	p
+org.servalproject.servaldna.meshms	meshms/MeshMSMessageList.java	/^package org.servalproject.servaldna.meshms;$/;"	p
+org.servalproject.servaldna.meshms	meshms/MeshMSProtocolFaultException.java	/^package org.servalproject.servaldna.meshms;$/;"	p
+org.servalproject.servaldna.meshms	meshms/MeshMSStatus.java	/^package org.servalproject.servaldna.meshms;$/;"	p
+org.servalproject.servaldna.meshms	meshms/MeshMSUnknownIdentityException.java	/^package org.servalproject.servaldna.meshms;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeBundleList.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeBundleStatus.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeCommon.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeDecryptionException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeDuplicateBundleException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeEncryptionException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeFakeManifestException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeIncompleteManifest.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeInconsistencyException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeInsertBundle.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeInvalidManifestException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeListBundle.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeManifest.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeManifestAlreadyStoredException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeManifestBundle.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeManifestNotFoundException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeManifestParseException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeManifestSizeException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeOutdatedBundleException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomePayloadBundle.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomePayloadRawBundle.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomePayloadStatus.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeReadOnlyException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+org.servalproject.servaldna.rhizome	rhizome/RhizomeStoreFullException.java	/^package org.servalproject.servaldna.rhizome;$/;"	p
+parse	AbstractMdpProtocol.java	/^	protected abstract void parse(MdpPacket response);$/;"	m	class:AbstractMdpProtocol
+parse	MdpDnaLookup.java	/^	protected void parse(MdpPacket response) {$/;"	m	class:MdpDnaLookup
+parse	MdpServiceLookup.java	/^	protected void parse(MdpPacket response) {$/;"	m	class:MdpServiceLookup
+parseBoolean	ServalDCommand.java	/^	private static boolean parseBoolean(String value, boolean defaultValue) {$/;"	m	class:ServalDCommand	file:
+parseField	rhizome/RhizomeIncompleteManifest.java	/^	static private <T> T parseField(T currentValue, T newValue) throws RhizomeManifestParseException$/;"	m	class:RhizomeIncompleteManifest	file:
+parseTextFormat	rhizome/RhizomeIncompleteManifest.java	/^	public void parseTextFormat(InputStream in) throws IOException, RhizomeManifestParseException$/;"	m	class:RhizomeIncompleteManifest
+parseUnsignedLong	rhizome/RhizomeIncompleteManifest.java	/^	private static Long parseUnsignedLong(String text) throws NumberFormatException$/;"	m	class:RhizomeIncompleteManifest	file:
+parseUnsignedLong	rhizome/RhizomeManifest.java	/^	private static Long parseUnsignedLong(String text) throws NumberFormatException$/;"	m	class:RhizomeManifest	file:
+payload	MdpPacket.java	/^	public ByteBuffer payload;$/;"	f	class:MdpPacket
+payloadInputStream	rhizome/RhizomePayloadBundle.java	/^	public final InputStream payloadInputStream;$/;"	f	class:RhizomePayloadBundle
+payload_status_code	rhizome/RhizomeCommon.java	/^		RhizomePayloadStatus payload_status_code;$/;"	f	class:RhizomeCommon.Status
+payload_status_message	rhizome/RhizomeCommon.java	/^		String payload_status_message;$/;"	f	class:RhizomeCommon.Status
+peerCount	ServalDCommand.java	/^	public static int peerCount() throws ServalDFailureException {$/;"	m	class:ServalDCommand
+pid	ServalDCommand.java	/^		public int pid;$/;"	f	class:ServalDCommand.Status
+pid	ServerControl.java	/^	private int pid;$/;"	f	class:ServerControl	file:
+port	MdpSocket.java	/^	private int port;$/;"	f	class:MdpSocket	file:
+prepareCol	JniResultList.java	/^	private void prepareCol(){$/;"	m	class:JniResultList	file:
+prepareReply	MdpPacket.java	/^	public MdpPacket prepareReply(){$/;"	m	class:MdpPacket
+putBlob	AbstractJniResults.java	/^	public abstract void putBlob(byte[] value);$/;"	m	class:AbstractJniResults
+putBlob	IJniResults.java	/^	public void putBlob(byte[] value);$/;"	m	interface:IJniResults
+putBlob	JniResult.java	/^	public void putBlob(byte[] value) {$/;"	m	class:JniResult
+putBlob	JniResultList.java	/^	public void putBlob(byte[] value) {$/;"	m	class:JniResultList
+putBlob	ServalDCommand.java	/^		public void putBlob(byte[] value) {$/;"	m	class:ServalDCommand.Conversation
+putBlob	ServalDCommand.java	/^		public void putBlob(byte[] value) {$/;"	m	class:ServalDCommand.IdentityResult
+putBlob	ServalDCommand.java	/^		public void putBlob(byte[] value) {$/;"	m	class:ServalDCommand.ManifestResult
+putDouble	AbstractJniResults.java	/^	public void putDouble(double value) {$/;"	m	class:AbstractJniResults
+putDouble	IJniResults.java	/^	public void putDouble(double value);$/;"	m	interface:IJniResults
+putDouble	JniResult.java	/^	public void putDouble(double value) {$/;"	m	class:JniResult
+putDouble	JniResultList.java	/^	public void putDouble(double value) {$/;"	m	class:JniResultList
+putLong	AbstractJniResults.java	/^	public void putLong(long value) {$/;"	m	class:AbstractJniResults
+putLong	IJniResults.java	/^	public void putLong(long value);$/;"	m	interface:IJniResults
+putLong	JniResult.java	/^	public void putLong(long value) {$/;"	m	class:JniResult
+putLong	JniResultList.java	/^	public void putLong(long value) {$/;"	m	class:JniResultList
+putLong	ServalDCommand.java	/^		public void putLong(long value) {$/;"	m	class:ServalDCommand.Conversation
+putLong	ServalDCommand.java	/^		public void putLong(long value) {$/;"	m	class:ServalDCommand.ManifestResult
+putLong	ServalDCommand.java	/^		public void putLong(long value) {$/;"	m	class:ServalDCommand.Message
+putLong	ServalDCommand.java	/^		public void putLong(long value) {$/;"	m	class:ServalDCommand.PeerCount
+putLong	ServalDCommand.java	/^		public void putLong(long value) {$/;"	m	class:ServalDCommand.Status
+putString	AbstractJniResults.java	/^	public void putString(String value) {$/;"	m	class:AbstractJniResults
+putString	IJniResults.java	/^	public void putString(String value);$/;"	m	interface:IJniResults
+putString	JniResult.java	/^	public void putString(String value) {$/;"	m	class:JniResult
+putString	JniResultList.java	/^	public void putString(String value) {$/;"	m	class:JniResultList
+putString	ServalDCommand.java	/^		public void putString(String value) {$/;"	m	class:ServalDCommand.ConfigItems
+putString	ServalDCommand.java	/^		public void putString(String value) {$/;"	m	class:ServalDCommand.Conversation
+putString	ServalDCommand.java	/^		public void putString(String value) {$/;"	m	class:ServalDCommand.IdentityResult
+putString	ServalDCommand.java	/^		public void putString(String value) {$/;"	m	class:ServalDCommand.LookupResult
+putString	ServalDCommand.java	/^		public void putString(String value) {$/;"	m	class:ServalDCommand.ManifestResult
+putString	ServalDCommand.java	/^		public void putString(String value) {$/;"	m	class:ServalDCommand.Message
+putString	ServalDCommand.java	/^		public void putString(String value) {$/;"	m	class:ServalDCommand.Status
+quoteString	keyring/KeyringCommon.java	/^	private static String quoteString(String unquoted)$/;"	m	class:KeyringCommon	file:
+quoteString	rhizome/RhizomeCommon.java	/^	private static String quoteString(String unquoted)$/;"	m	class:RhizomeCommon	file:
+rawCommand	ServalDCommand.java	/^	private static native int rawCommand(IJniResults results, String[] args);$/;"	m	class:ServalDCommand	file:
+rawPayloadInputStream	rhizome/RhizomePayloadRawBundle.java	/^	public final InputStream rawPayloadInputStream;$/;"	f	class:RhizomePayloadRawBundle
+read	AbstractExternalInterface.java	/^	public void read() {$/;"	m	class:AbstractExternalInterface
+read	AbstractMdpProtocol.java	/^	public void read() {$/;"	m	class:AbstractMdpProtocol
+read	ChannelSelector.java	/^		public void read(){};$/;"	m	class:ChannelSelector.Handler
+read	MdpServiceLookup.java	/^		public int read() throws IOException {$/;"	m	class:MdpServiceLookup.BuffStream
+read	MdpServiceLookup.java	/^		public int read(byte[] dst, int dstOffset, int charCount) throws IOException {$/;"	m	class:MdpServiceLookup.BuffStream
+read	ServalDCommand.java	/^		public String read;$/;"	f	class:ServalDCommand.Conversation
+readMessage	ServalDCommand.java	/^	public static void readMessage(final SubscriberId sender, final SubscriberId recipient) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+readMessage	ServalDCommand.java	/^	public static void readMessage(final SubscriberId sender, final SubscriberId recipient, long offset) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+readOffset	meshms/MeshMSConversation.java	/^	public final long readOffset;$/;"	f	class:MeshMSConversation
+readOffset	meshms/MeshMSMessageList.java	/^	private long readOffset;$/;"	f	class:MeshMSMessageList	file:
+read_offset	ServalDCommand.java	/^		public long read_offset;$/;"	f	class:ServalDCommand.Conversation
+readonly	ServalDCommand.java	/^		public boolean readonly=true;$/;"	f	class:ServalDCommand.ManifestResult
+rebind	AbstractMdpProtocol.java	/^	public void rebind() throws IOException {$/;"	m	class:AbstractMdpProtocol
+rebind	MdpSocket.java	/^	public void rebind() throws IOException{$/;"	m	class:MdpSocket
+receive	MdpPacket.java	/^	public void receive(DatagramChannel channel) throws IOException {$/;"	m	class:MdpPacket
+receive	MdpSocket.java	/^	public void receive(MdpPacket packet) throws IOException {$/;"	m	class:MdpSocket
+receiveResponse	keyring/KeyringCommon.java	/^	protected static Status receiveResponse(HttpURLConnection conn, int expected_response_code) throws IOException, ServalDInterfaceException$/;"	m	class:KeyringCommon
+receiveResponse	keyring/KeyringCommon.java	/^	protected static Status receiveResponse(HttpURLConnection conn, int[] expected_response_codes) throws IOException, ServalDInterfaceException$/;"	m	class:KeyringCommon
+receiveResponse	rhizome/RhizomeCommon.java	/^	protected static Status receiveResponse(HttpURLConnection conn, int expected_response_code) throws IOException, ServalDInterfaceException$/;"	m	class:RhizomeCommon
+receiveResponse	rhizome/RhizomeCommon.java	/^	protected static Status receiveResponse(HttpURLConnection conn, int[] expected_response_codes) throws IOException, ServalDInterfaceException$/;"	m	class:RhizomeCommon
+receiveRestfulResponse	keyring/KeyringCommon.java	/^	protected static Status receiveRestfulResponse(HttpURLConnection conn, int expected_response_code) throws IOException, ServalDInterfaceException$/;"	m	class:KeyringCommon
+receiveRestfulResponse	keyring/KeyringCommon.java	/^	protected static Status receiveRestfulResponse(HttpURLConnection conn, int[] expected_response_codes) throws IOException, ServalDInterfaceException$/;"	m	class:KeyringCommon
+receiveRestfulResponse	meshms/MeshMSCommon.java	/^	protected static JSONTokeniser receiveRestfulResponse(HttpURLConnection conn, int expected_response_code) throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:MeshMSCommon
+receiveRestfulResponse	meshms/MeshMSCommon.java	/^	protected static JSONTokeniser receiveRestfulResponse(HttpURLConnection conn, int[] expected_response_codes) throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:MeshMSCommon
+receiveRestfulResponse	rhizome/RhizomeCommon.java	/^	protected static JSONTokeniser receiveRestfulResponse(HttpURLConnection conn, int expected_response_code) throws IOException, ServalDInterfaceException$/;"	m	class:RhizomeCommon
+receiveRestfulResponse	rhizome/RhizomeCommon.java	/^	protected static JSONTokeniser receiveRestfulResponse(HttpURLConnection conn, int[] expected_response_codes) throws IOException, ServalDInterfaceException$/;"	m	class:RhizomeCommon
+receivedPacket	AbstractExternalInterface.java	/^	public void receivedPacket(byte recvaddr[], byte recvbytes[]) throws IOException {$/;"	m	class:AbstractExternalInterface
+receivedPacket	AbstractExternalInterface.java	/^	public void receivedPacket(byte recvaddr[], byte recvbytes[], int offset, int len) throws IOException {$/;"	m	class:AbstractExternalInterface
+recipient	ServalDCommand.java	/^		public SubscriberId recipient;$/;"	f	class:ServalDCommand.Conversation
+recipient	rhizome/RhizomeIncompleteManifest.java	/^	public SubscriberId recipient;$/;"	f	class:RhizomeIncompleteManifest
+recipient	rhizome/RhizomeManifest.java	/^	public final SubscriberId recipient;$/;"	f	class:RhizomeManifest
+register	ChannelSelector.java	/^	public synchronized void register(Handler handler) throws IOException {$/;"	m	class:ChannelSelector
+registerException	ChannelSelector.java	/^	private IOException registerException;$/;"	f	class:ChannelSelector	file:
+registerHandler	ChannelSelector.java	/^	private Handler registerHandler;$/;"	f	class:ChannelSelector	file:
+reset	MdpServiceLookup.java	/^		public void reset() throws IOException {$/;"	m	class:MdpServiceLookup.BuffStream
+restart	ServerControl.java	/^	public void restart() throws ServalDFailureException {$/;"	m	class:ServerControl
+restfulPassword	ServalDClient.java	/^	private final String restfulPassword;$/;"	f	class:ServalDClient	file:
+restfulUsername	ServalDClient.java	/^	private final String restfulUsername;$/;"	f	class:ServalDClient	file:
+restfulUsername	ServerControl.java	/^	public static final String restfulUsername="ServalDClient";$/;"	f	class:ServerControl
+result	AsyncResult.java	/^	public void result(T nextResult);$/;"	m	interface:AsyncResult
+result	JniResult.java	/^	protected int result;$/;"	f	class:JniResult
+result	ResultList.java	/^	public void result(T nextResult) {$/;"	m	class:ResultList
+results	AbstractMdpProtocol.java	/^	protected final AsyncResult<T> results;$/;"	f	class:AbstractMdpProtocol
+results	JniResultList.java	/^	private AsyncResult<T> results;$/;"	f	class:JniResultList	file:
+results	ResultList.java	/^	private final List<T> results;$/;"	f	class:ResultList	file:
+reverseLookup	ServalDCommand.java	/^	public static IdentityResult reverseLookup(final SubscriberId sid) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+rhizomeAddFile	ServalDCommand.java	/^	public static ManifestResult rhizomeAddFile(File payloadPath, File manifestPath, BundleId bid, SubscriberId author, String pin, String... fieldValues)$/;"	m	class:ServalDCommand
+rhizomeDirectPull	ServalDCommand.java	/^	public static void rhizomeDirectPull() throws ServalDFailureException$/;"	m	class:ServalDCommand
+rhizomeDirectPush	ServalDCommand.java	/^	public static void rhizomeDirectPush() throws ServalDFailureException$/;"	m	class:ServalDCommand
+rhizomeDirectSync	ServalDCommand.java	/^	public static void rhizomeDirectSync() throws ServalDFailureException$/;"	m	class:ServalDCommand
+rhizomeExportManifest	ServalDCommand.java	/^	public static ManifestResult rhizomeExportManifest(BundleId manifestId, File manifestFile) throws ServalDFailureException{$/;"	m	class:ServalDCommand
+rhizomeExportZipBundle	ServalDCommand.java	/^	public static ManifestResult rhizomeExportZipBundle(BundleId manifestId, File payloadFile) throws ServalDFailureException{$/;"	m	class:ServalDCommand
+rhizomeExtractBundle	ServalDCommand.java	/^	public static ManifestResult rhizomeExtractBundle(BundleId manifestId, File manifestFile, File payloadFile) throws ServalDFailureException{$/;"	m	class:ServalDCommand
+rhizomeExtractFile	ServalDCommand.java	/^	public static ManifestResult rhizomeExtractFile(BundleId manifestId, File payloadFile) throws ServalDFailureException{$/;"	m	class:ServalDCommand
+rhizomeImportBundle	ServalDCommand.java	/^	public static ManifestResult rhizomeImportBundle(File payloadFile,$/;"	m	class:ServalDCommand
+rhizomeImportZipBundle	ServalDCommand.java	/^	public static ManifestResult rhizomeImportZipBundle(File payloadFile) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+rhizomeInsert	ServalDClient.java	/^	public RhizomeInsertBundle rhizomeInsert(SubscriberId author, RhizomeIncompleteManifest manifest, BundleSecret secret)$/;"	m	class:ServalDClient
+rhizomeInsert	ServalDClient.java	/^	public RhizomeInsertBundle rhizomeInsert(SubscriberId author, RhizomeIncompleteManifest manifest, BundleSecret secret, InputStream payloadStream, String fileName)$/;"	m	class:ServalDClient
+rhizomeInsert	rhizome/RhizomeCommon.java	/^	public static RhizomeInsertBundle rhizomeInsert(ServalDHttpConnectionFactory connector,$/;"	m	class:RhizomeCommon
+rhizomeList	ServalDCommand.java	/^	public static int rhizomeList(AsyncResult<ManifestResult> result, String service, String name, SubscriberId sender, SubscriberId recipient, int offset, int numRows) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+rhizomeList	ServalDCommand.java	/^	public static int rhizomeList(IJniResults result, String service, String name, SubscriberId sender, SubscriberId recipient, int offset, int numRows) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+rhizomeListBundles	ServalDClient.java	/^	public RhizomeBundleList rhizomeListBundles() throws ServalDInterfaceException, IOException$/;"	m	class:ServalDClient
+rhizomeListBundlesSince	ServalDClient.java	/^	public RhizomeBundleList rhizomeListBundlesSince(String token) throws ServalDInterfaceException, IOException$/;"	m	class:ServalDClient
+rhizomeManifest	ServalDClient.java	/^	public RhizomeManifestBundle rhizomeManifest(BundleId bid) throws ServalDInterfaceException, IOException$/;"	m	class:ServalDClient
+rhizomeManifest	rhizome/RhizomeCommon.java	/^	public static RhizomeManifestBundle rhizomeManifest(ServalDHttpConnectionFactory connector, BundleId bid)$/;"	m	class:RhizomeCommon
+rhizomePayload	ServalDClient.java	/^	public RhizomePayloadBundle rhizomePayload(BundleId bid) throws ServalDInterfaceException, IOException, RhizomeDecryptionException$/;"	m	class:ServalDClient
+rhizomePayload	rhizome/RhizomeCommon.java	/^	public static RhizomePayloadBundle rhizomePayload(ServalDHttpConnectionFactory connector, BundleId bid)$/;"	m	class:RhizomeCommon
+rhizomePayloadRaw	ServalDClient.java	/^	public RhizomePayloadRawBundle rhizomePayloadRaw(BundleId bid) throws ServalDInterfaceException, IOException$/;"	m	class:ServalDClient
+rhizomePayloadRaw	rhizome/RhizomeCommon.java	/^	public static RhizomePayloadRawBundle rhizomePayloadRaw(ServalDHttpConnectionFactory connector, BundleId bid)$/;"	m	class:RhizomeCommon
+rowCount	keyring/KeyringIdentityList.java	/^	int rowCount;$/;"	f	class:KeyringIdentityList
+rowCount	meshms/MeshMSConversationList.java	/^	int rowCount;$/;"	f	class:MeshMSConversationList
+rowCount	meshms/MeshMSMessageList.java	/^	private int rowCount;$/;"	f	class:MeshMSMessageList	file:
+rowCount	rhizome/RhizomeBundleList.java	/^	int rowCount;$/;"	f	class:RhizomeBundleList
+rowId	ServalDCommand.java	/^		public long rowId;$/;"	f	class:ServalDCommand.ManifestResult
+rowId	rhizome/RhizomeCommon.java	/^		public Long rowId;$/;"	f	class:RhizomeCommon.BundleExtra
+rowId	rhizome/RhizomeListBundle.java	/^	public final int rowId;$/;"	f	class:RhizomeListBundle
+rowId	rhizome/RhizomeManifestBundle.java	/^	public final Long rowId;$/;"	f	class:RhizomeManifestBundle
+rowId	rhizome/RhizomePayloadBundle.java	/^	public final Long rowId;$/;"	f	class:RhizomePayloadBundle
+rowId	rhizome/RhizomePayloadRawBundle.java	/^	public final Long rowId;$/;"	f	class:RhizomePayloadRawBundle
+rowNumber	keyring/KeyringIdentity.java	/^	public final int rowNumber;$/;"	f	class:KeyringIdentity
+rowNumber	rhizome/RhizomeListBundle.java	/^	public final int rowNumber;$/;"	f	class:RhizomeListBundle
+running	ChannelSelector.java	/^	private boolean running = false;$/;"	f	class:ChannelSelector	file:
+secret	ServalDCommand.java	/^		public String secret;$/;"	f	class:ServalDCommand.ManifestResult
+secret	rhizome/RhizomeCommon.java	/^		public BundleSecret secret;$/;"	f	class:RhizomeCommon.BundleExtra
+secret	rhizome/RhizomeManifestBundle.java	/^	public final BundleSecret secret;$/;"	f	class:RhizomeManifestBundle
+secret	rhizome/RhizomePayloadBundle.java	/^	public final BundleSecret secret;$/;"	f	class:RhizomePayloadBundle
+secret	rhizome/RhizomePayloadRawBundle.java	/^	public final BundleSecret secret;$/;"	f	class:RhizomePayloadRawBundle
+selector	AbstractExternalInterface.java	/^	private final ChannelSelector selector;$/;"	f	class:AbstractExternalInterface	file:
+selector	AbstractMdpProtocol.java	/^	private final ChannelSelector selector;$/;"	f	class:AbstractMdpProtocol	file:
+selector	ChannelSelector.java	/^	private final Selector selector;$/;"	f	class:ChannelSelector	file:
+selectorThread	ChannelSelector.java	/^	private Runnable selectorThread = new Runnable(){$/;"	f	class:ChannelSelector	file:
+send	MdpPacket.java	/^	public void send(DatagramChannel channel) throws IOException {$/;"	m	class:MdpPacket
+send	MdpSocket.java	/^	public void send(MdpPacket packet) throws IOException {$/;"	m	class:MdpSocket
+sendMessage	ServalDCommand.java	/^	public static void sendMessage(final SubscriberId sender, final SubscriberId recipient, String message) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+sendMessage	meshms/MeshMSCommon.java	/^	public static MeshMSStatus sendMessage(ServalDHttpConnectionFactory connector, SubscriberId sid1, SubscriberId sid2, String text) throws IOException, ServalDInterfaceException, MeshMSException$/;"	m	class:MeshMSCommon
+sendPacket	AbstractExternalInterface.java	/^	protected abstract void sendPacket(byte addr[], ByteBuffer payload);$/;"	m	class:AbstractExternalInterface
+sendRequest	MdpDnaLookup.java	/^	public void sendRequest(SubscriberId destination, String did) throws IOException {$/;"	m	class:MdpDnaLookup
+sendRequest	MdpServiceLookup.java	/^	public void sendRequest(SubscriberId destination, String pattern) throws IOException {$/;"	m	class:MdpServiceLookup
+sender	rhizome/RhizomeIncompleteManifest.java	/^	public SubscriberId sender;$/;"	f	class:RhizomeIncompleteManifest
+sender	rhizome/RhizomeManifest.java	/^	public final SubscriberId sender;$/;"	f	class:RhizomeManifest
+serialVersionUID	AbstractId.java	/^		private static final long serialVersionUID = 1L;$/;"	f	class:AbstractId.InvalidBinaryException	file:
+serialVersionUID	AbstractId.java	/^		private static final long serialVersionUID = 1L;$/;"	f	class:AbstractId.InvalidHexException	file:
+serialVersionUID	ServalDFailureException.java	/^	private static final long serialVersionUID = 1L;$/;"	f	class:ServalDFailureException	file:
+server	ServalDCommand.java	/^	public static native int server(IJniServer callback, String keyringPin, String[] entryPins);$/;"	m	class:ServalDCommand
+serverStart	ServalDCommand.java	/^	public static Status serverStart()$/;"	m	class:ServalDCommand
+serverStart	ServalDCommand.java	/^	public static Status serverStart(String execPath)$/;"	m	class:ServalDCommand
+serverStatus	ServalDCommand.java	/^	public static Status serverStatus()$/;"	m	class:ServalDCommand
+serverStop	ServalDCommand.java	/^	public static Status serverStop()$/;"	m	class:ServalDCommand
+service	ServalDCommand.java	/^		public String service;$/;"	f	class:ServalDCommand.ManifestResult
+service	rhizome/RhizomeIncompleteManifest.java	/^	public String service;$/;"	f	class:RhizomeIncompleteManifest
+service	rhizome/RhizomeManifest.java	/^	public final String service;$/;"	f	class:RhizomeManifest
+set	ServalDCommand.java	/^		set,$/;"	e	enum:ServalDCommand.ConfigAction	file:
+setColumnName	AbstractJniResults.java	/^	public void setColumnName(int i, String name) {$/;"	m	class:AbstractJniResults
+setColumnName	IJniResults.java	/^	public void setColumnName(int column, String name);$/;"	m	interface:IJniResults
+setColumnName	JniResult.java	/^	public void setColumnName(int column, String name) {$/;"	m	class:JniResult
+setColumnName	JniResultList.java	/^	public void setColumnName(int column, String name) {$/;"	m	class:JniResultList
+setCommand	JniResult.java	/^	void setCommand(String command[]){$/;"	m	class:JniResult
+setConfigItem	ServalDCommand.java	/^	public static void setConfigItem(String name, String value) throws ServalDFailureException {$/;"	m	class:ServalDCommand
+setDidName	keyring/KeyringCommon.java	/^	public static KeyringIdentity setDidName(ServalDHttpConnectionFactory connector, SubscriberId sid, String did, String name, String pin)$/;"	m	class:KeyringCommon
+setFlags	MdpPacket.java	/^	public void setFlags(byte flags){$/;"	m	class:MdpPacket
+setInstancePath	ServalDCommand.java	/^	public static native int setInstancePath(String path);$/;"	m	class:ServalDCommand
+setLocalPort	MdpPacket.java	/^	public void setLocalPort(int local_port){$/;"	m	class:MdpPacket
+setLocalSid	MdpPacket.java	/^	public void setLocalSid(SubscriberId local_sid){$/;"	m	class:MdpPacket
+setQOS	MdpPacket.java	/^	public void setQOS(byte qos){$/;"	m	class:MdpPacket
+setRemotePort	MdpPacket.java	/^	public void setRemotePort(int remote_port){$/;"	m	class:MdpPacket
+setRemoteSid	MdpPacket.java	/^	public void setRemoteSid(SubscriberId local_sid){$/;"	m	class:MdpPacket
+setResult	JniResult.java	/^	void setResult(int result) throws ServalDFailureException {$/;"	m	class:JniResult
+setStatus	ServerControl.java	/^	private void setStatus(ServalDCommand.Status result){$/;"	m	class:ServerControl	file:
+setStatus	ServerControl.java	/^	protected void setStatus(String instancePath, int pid, int mdpInetPort, int httpPort){$/;"	m	class:ServerControl
+setTTL	MdpPacket.java	/^	public void setTTL(byte ttl){$/;"	m	class:MdpPacket
+sid	MdpSocket.java	/^	private SubscriberId sid = null;$/;"	f	class:MdpSocket	file:
+sid	keyring/KeyringIdentity.java	/^	public final SubscriberId sid;$/;"	f	class:KeyringIdentity
+sid	meshms/MeshMSConversationList.java	/^	private SubscriberId sid;$/;"	f	class:MeshMSConversationList	file:
+signatureBlock	rhizome/RhizomeManifest.java	/^	private byte[] signatureBlock;$/;"	f	class:RhizomeManifest	file:
+sinceToken	meshms/MeshMSMessageList.java	/^	private String sinceToken;$/;"	f	class:MeshMSMessageList	file:
+sinceToken	rhizome/RhizomeBundleList.java	/^	private String sinceToken;$/;"	f	class:RhizomeBundleList	file:
+socket	AbstractExternalInterface.java	/^	protected final MdpSocket socket;$/;"	f	class:AbstractExternalInterface
+socket	AbstractMdpProtocol.java	/^	protected final MdpSocket socket;$/;"	f	class:AbstractMdpProtocol
+start	ServerControl.java	/^	public void start() throws ServalDFailureException {$/;"	m	class:ServerControl
+startResultSet	AbstractJniResults.java	/^	public void startResultSet(int columns) {$/;"	m	class:AbstractJniResults
+startResultSet	IJniResults.java	/^	public void startResultSet(int columns);$/;"	m	interface:IJniResults
+startResultSet	JniResult.java	/^	public void startResultSet(int columns) {$/;"	m	class:JniResult
+startResultSet	JniResultList.java	/^	public void startResultSet(int columns) {$/;"	m	class:JniResultList
+started	IJniServer.java	/^	void started(String instancePath, int pid, int mdpPort, int httpPort);$/;"	m	interface:IJniServer
+status	ServalDCommand.java	/^		public String status;$/;"	f	class:ServalDCommand.Status
+status	rhizome/RhizomeInsertBundle.java	/^	public final RhizomeBundleStatus status;$/;"	f	class:RhizomeInsertBundle
+stop	ServerControl.java	/^	public void stop() throws ServalDFailureException {$/;"	m	class:ServerControl
+subscriberId	MdpServiceLookup.java	/^		public final SubscriberId subscriberId;$/;"	f	class:MdpServiceLookup.ServiceResult
+subscriberId	ServalDCommand.java	/^		public SubscriberId subscriberId;$/;"	f	class:ServalDCommand.IdentityResult
+subscriberId	ServalDCommand.java	/^		public SubscriberId subscriberId;$/;"	f	class:ServalDCommand.LookupResult
+sync	ServalDCommand.java	/^		sync$/;"	e	enum:ServalDCommand.ConfigAction	file:
+table	keyring/KeyringIdentityList.java	/^	private JSONTableScanner table;$/;"	f	class:KeyringIdentityList	file:
+table	meshms/MeshMSMessageList.java	/^	private JSONTableScanner table;$/;"	f	class:MeshMSMessageList	file:
+table	rhizome/RhizomeBundleList.java	/^	private JSONTableScanner table;$/;"	f	class:RhizomeBundleList	file:
+tags	ServalDCommand.java	/^		public Map<String, String> tags = new HashMap<String, String>();$/;"	f	class:ServalDCommand.IdentityResult
+tail	rhizome/RhizomeIncompleteManifest.java	/^	public Long tail;$/;"	f	class:RhizomeIncompleteManifest
+tail	rhizome/RhizomeManifest.java	/^	public final Long tail; \/\/ null iff not a journal$/;"	f	class:RhizomeManifest
+text	meshms/MeshMSMessage.java	/^	public final String text;$/;"	f	class:MeshMSMessage
+textFormat	rhizome/RhizomeManifest.java	/^	private byte[] textFormat;$/;"	f	class:RhizomeManifest	file:
+theirSid	meshms/MeshMSConversation.java	/^	public final SubscriberId theirSid;$/;"	f	class:MeshMSConversation
+theirSid	meshms/MeshMSMessage.java	/^	public final SubscriberId theirSid;$/;"	f	class:MeshMSMessage
+their_sid	meshms/MeshMSMessageList.java	/^	private SubscriberId their_sid;$/;"	f	class:MeshMSMessageList	file:
+throwRestfulResponseExceptions	meshms/MeshMSCommon.java	/^	protected static void throwRestfulResponseExceptions(Status status, URL url) throws MeshMSException, ServalDFailureException$/;"	m	class:MeshMSCommon
+timestamp	meshms/MeshMSMessage.java	/^	public final Long timestamp;$/;"	f	class:MeshMSMessage
+toByteBuffer	AbstractId.java	/^	public void toByteBuffer(ByteBuffer buff){$/;"	m	class:AbstractId
+toHex	AbstractId.java	/^	public String toHex() {$/;"	m	class:AbstractId
+toHex	AbstractId.java	/^	public String toHex(int len) {$/;"	m	class:AbstractId
+toHex	AbstractId.java	/^	public String toHex(int offset, int len) {$/;"	m	class:AbstractId
+toList	meshms/MeshMSConversationList.java	/^	public List<MeshMSConversation> toList() throws ServalDInterfaceException, IOException {$/;"	m	class:MeshMSConversationList
+toList	meshms/MeshMSMessageList.java	/^	public List<MeshMSMessage> toList() throws ServalDInterfaceException, IOException {$/;"	m	class:MeshMSMessageList
+toString	AbstractId.java	/^	public String toString() {$/;"	m	class:AbstractId
+toString	MdpServiceLookup.java	/^		public String toString(){$/;"	m	class:MdpServiceLookup.ServiceResult
+toString	ServalDCommand.java	/^		public String toString() {$/;"	m	class:ServalDCommand.IdentityResult
+toString	ServalDCommand.java	/^		public String toString() {$/;"	m	class:ServalDCommand.LookupResult
+toString	ServalDCommand.java	/^		public String toString() {$/;"	m	class:ServalDCommand.Status
+toString	ServalDCommand.java	/^	public static String toString(String[] values) {$/;"	m	class:ServalDCommand
+toTextFormat	rhizome/RhizomeIncompleteManifest.java	/^	public void toTextFormat(OutputStream os) throws IOException$/;"	m	class:RhizomeIncompleteManifest
+toTextFormat	rhizome/RhizomeManifest.java	/^	public byte[] toTextFormat() throws RhizomeManifestSizeException$/;"	m	class:RhizomeManifest
+toTextFormat	rhizome/RhizomeManifest.java	/^	public void toTextFormat(OutputStream os) throws IOException$/;"	m	class:RhizomeManifest
+token	meshms/MeshMSMessage.java	/^	public final String token;$/;"	f	class:MeshMSMessage
+token	rhizome/RhizomeListBundle.java	/^	public final String token;$/;"	f	class:RhizomeListBundle
+totalRowCount	AbstractJniResults.java	/^	public void totalRowCount(int rows) {$/;"	m	class:AbstractJniResults
+totalRowCount	IJniResults.java	/^	public void totalRowCount(int rows);$/;"	m	interface:IJniResults
+totalRowCount	JniResult.java	/^	public void totalRowCount(int rows) {$/;"	m	class:JniResult
+totalRowCount	JniResultList.java	/^	public void totalRowCount(int rows) {$/;"	m	class:JniResultList
+tries	ServalDCommand.java	/^		public int tries;$/;"	f	class:ServalDCommand.Status
+type	ServalDCommand.java	/^		public String type;$/;"	f	class:ServalDCommand.Message
+type	meshms/MeshMSMessage.java	/^	public final Type type;$/;"	f	class:MeshMSMessage
+unexpectedResponse	keyring/KeyringCommon.java	/^	protected static ServalDInterfaceException unexpectedResponse(HttpURLConnection conn, Status status)$/;"	m	class:KeyringCommon
+unexpectedResponse	rhizome/RhizomeCommon.java	/^	protected static ServalDInterfaceException unexpectedResponse(HttpURLConnection conn, Status status)$/;"	m	class:RhizomeCommon
+unregister	ChannelSelector.java	/^	public synchronized void unregister(Handler handler) throws IOException {$/;"	m	class:ChannelSelector
+unregisterHandler	ChannelSelector.java	/^	private Handler unregisterHandler;$/;"	f	class:ChannelSelector	file:
+up	AbstractExternalInterface.java	/^	public void up(String config) throws IOException {$/;"	m	class:AbstractExternalInterface
+uri	ServalDCommand.java	/^		public String uri;$/;"	f	class:ServalDCommand.LookupResult
+uri_encode	ServalDHttpConnectionFactory.java	/^		public void uri_encode(StringBuilder str) throws UnsupportedEncodingException {$/;"	m	class:ServalDHttpConnectionFactory.QueryParam
+uri_encode_string	ServalDHttpConnectionFactory.java	/^		static private void uri_encode_string(StringBuilder str, String text) throws UnsupportedEncodingException {$/;"	m	class:ServalDHttpConnectionFactory.QueryParam	file:
+url	meshms/MeshMSException.java	/^	public final URL url;$/;"	f	class:MeshMSException
+url	rhizome/RhizomeException.java	/^	public final URL url;$/;"	f	class:RhizomeException
+value	ServalDHttpConnectionFactory.java	/^		public final String value;$/;"	f	class:ServalDHttpConnectionFactory.QueryParam
+values	ServalDCommand.java	/^		public Map<String, String> values = new HashMap<String, String>();$/;"	f	class:ServalDCommand.ConfigItems
+version	ServalDCommand.java	/^		public long version;$/;"	f	class:ServalDCommand.ManifestResult
+version	rhizome/RhizomeIncompleteManifest.java	/^	public Long version;$/;"	f	class:RhizomeIncompleteManifest
+version	rhizome/RhizomeManifest.java	/^	public final long version;$/;"	f	class:RhizomeManifest
+wokeUp	IJniServer.java	/^	void wokeUp();$/;"	m	interface:IJniServer
+write	ChannelSelector.java	/^		public void write(){};$/;"	m	class:ChannelSelector.Handler
