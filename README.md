@@ -10,7 +10,7 @@ Please install Android Studio to build this project.
 
 Related projects
 --------
-* Our project is majorly based on [Serval Mesh (batphone)](https://github.com/servalproject/batphone).
+* The project is majorly based on [Serval Mesh (batphone)](https://github.com/servalproject/batphone).
 
 * The communication layer library is from [serval-dna](https://github.com/servalproject/serval-dna)
 
